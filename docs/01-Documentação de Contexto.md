@@ -16,12 +16,13 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Este trabalho tem como objetivo a criação de uma aplicação para envolver e fidelizar novos doadores de sangue, além de auxiliar na conscientização sobre a doação de sangue. Os objetivos específicos são: 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Fornecer meios para que os usuários possam visualizar uma lista de locais de doação próximos;
+- Permitir que os usuários insiram os nomes das pessoas que necessitam de doações;
+- Disponibilizar um questionário para determinar a elegibilidade do usuário para doação;
+- Proporcionar recursos educativos para informar os usuários sobre a importância da doação de sangue e desmistificar mitos e preconceitos relacionados ao tema;
+
 
 ## Justificativa
 
