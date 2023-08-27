@@ -9,9 +9,11 @@ Os requisitos e as personas apresentadas têm como base entrevistas e experiênc
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-![Persona John](./img/Persona Joana.jpg)
-![Persona John](./img/Persona Julianna.jpg)
-![Persona John](./img/Persona Luciano.jpg)
+![Persona Julianna](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-doe-facil/blob/main/docs/img/PersonaJulianna.png)
+
+![Persona Joana](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-doe-facil/blob/main/docs/img/PersonaJoana.png)
+
+![Persona Luciano](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-doe-facil/blob/main/docs/img/PersonaLuciano.png)
 
 
 ## Histórias de Usuários
