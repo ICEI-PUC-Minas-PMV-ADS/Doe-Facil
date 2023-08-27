@@ -136,16 +136,16 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+A matriz de rastreabilidade pode ser usada para ajudar a garantir que todos os requisitos estejam sendo atendidos e testados adequadamente, e para identificar quais partes do sistema podem ser afetadas por alterações em um requisito específico. É importante manter a matriz atualizada à medida que o sistema evolui e novas relações são identificadas.
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+![Imagem - Matriz de rastreabilidade - Doe Fácil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-doe-facil/assets/83494301/3da8175a-2180-4671-986e-5b9139afc22d)
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+Nesta matriz, cada linha representa um requisito não funcional e cada coluna representa um requisito funcional. A interseção entre uma linha e uma coluna é marcada com um “X” se o requisito não funcional correspondente à linha afeta o requisito funcional correspondente à coluna. Por exemplo, a interseção entre a linha “RNF-001” e a coluna “RF-001” é marcada com um “X”, indicando que o requisito não funcional “RNF-001” (Usabilidade: o aplicativo deve ter uma interface intuitiva, com botões bem definidos e fácil navegação) afeta o requisito funcional “RF-001” (O aplicativo deve permitir que o usuário realize o cadastro). 
 
 > **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+> - [Matriz de rastreabilidade - Doe Fácil](https://sgapucminasbr-my.sharepoint.com/:x:/r/personal/1433524_sga_pucminas_br/Documents/Pasta.xlsx?d=wbebcd2de885c4dadacedbf17dac7c712&csf=1&web=1&e=i50HdO)
+
+
 
 
 # Gerenciamento de Projeto
