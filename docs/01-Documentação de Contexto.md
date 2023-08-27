@@ -39,15 +39,7 @@ Tendo em vista essas informações e iniciativas, o nosso aplicativo pretende se
 > - [Informações sobre doação de sangue](https://prodi.ifes.edu.br/images/stories/dezembro-doacao-de-sangue.pdf/)
 
 
+
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+De modo geral, a aplicação abrange uma ampla gama de público, visando principalmente jovens e adultos, independente de classe ou gênero, que possuem os requisitos necessários para fazer doação de sangue. Além disso, pessoas que estão precisando de transfusão, seja para si mesma ou para familiares e amigos podem utilizar a aplicação para localizar possíveis doadores. A aplicação visa também criar uma rede de conexões entre doadores e beneficiários das doações aumentando assim a possibilidade de mobilização de novos doadores.
