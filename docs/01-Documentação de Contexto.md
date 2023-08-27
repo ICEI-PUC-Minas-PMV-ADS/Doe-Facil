@@ -27,7 +27,9 @@ Este trabalho tem como objetivo a criação de uma aplicação para envolver e f
 ## Justificativa
 
 Dada a baixa taxa de doação de sangue no Brasil, com apenas 1,4% da população respondendo a este importante apelo, de acordo com dados do Ministério da Saúde brasileiro para 2022, há claramente uma necessidade urgente de ações para incentivar a doação de sangue. Além disso, muitos brasileiros não doam sangue por barreiras como medo e falta de informação, segundo relatório da Abril em 2021.
+
 Considerando as informações de 2022 e as estatísticas preocupantes sobre a doação de sangue no Brasil, o cenário em 2023 não parece muito diferente. Ainda enfrentamos desafios para elevar o número de doadores, e ações pontuais têm sido necessárias para chamar a atenção para essa causa urgente. Artistas e influenciadores, como Ludmilla, têm tomado medidas criativas para incentivar doações. Em um dos seus eventos, por exemplo, Ludmilla ofereceu ingressos gratuitos para aqueles que comprovassem ter doado sangue recentemente. Pensando nisso, tornou-se muito importante criar um aplicativo que facilitasse o acesso  a doação de sangue.
+
 Tendo em vista essas informações e iniciativas, o nosso aplicativo pretende ser um mecanismo mais permanente e abrangente de engajamento, informações e educação sobre doação de sangue. Embora não ofereça agendamento, o aplicativo conta com funcionalidades como cadastro dos doadores, localização de hemocentros e lembretes sobre doações, preenchendo uma lacuna crucial na disseminação de informação e incentivo à doação.
 .
 
