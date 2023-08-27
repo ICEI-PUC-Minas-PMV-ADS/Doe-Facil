@@ -10,7 +10,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
 <div align="center">
-  <img src="docs/img/Persona Joana.jpg">
+  <img src="img/Persona Joana.jpg">
 </div>
 
 
