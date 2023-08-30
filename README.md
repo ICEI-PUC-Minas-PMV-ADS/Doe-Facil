@@ -4,9 +4,12 @@
 
 `Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`2023.2`
+` 3º SEMESTRE - 2023.2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+![doe-facil-banner](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-doe-facil/assets/83494301/f611f571-0f14-43e8-9495-65797034ef48)
+
+Doe Fácil é um aplicativo móvel que busca atrair e fidelizar novos doadores de sangue. A aplicação também tem como propósito conscientizar sobre a importância da doação de sangue e promover ações que encorajem essa prática. Com uma interface fácil de usar e recursos intuitivos, Doe Fácil torna o processo de doação de sangue mais simples e acessível para todos.
+
 
 ## Integrantes
 
