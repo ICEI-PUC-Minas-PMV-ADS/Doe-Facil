@@ -70,8 +70,7 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## Requisitos
 
-O aplicativo de doação de sangue desempenha um papel crucial ao conectar doadores e receptores de sangue de maneira eficiente e oportuna. Para alcançar esse objetivo, é fundamental definir e compreender os requisitos essenciais do aplicativo. Nas tabelas a seguir, serão apresentados os requisitos funcionais e não funcionais que guiarão o desenvolvimento dessa plataforma.
-
+O aplicativo de doação de sangue desempenha um papel crucial ao conectar doadores e receptores de sangue de maneira eficiente e oportuna. Para alcançar esse objetivo, é fundamental definir e compreender os requisitos essenciais do aplicativo. Utilizamos a técnica da "Escala de Três Níveis" para uniformizar as prioridades dos requisitos em Alta, Média e Baixa, facilitando a comunicação e o entendimento comum entre a equipe. Essa técnica foi usada para definir os fatores de importância e urgência do projeto, permitindo um planejamento mais preciso e alinhado com os objetivos do projeto. Nas tabelas a seguir, serão apresentados os requisitos funcionais e não funcionais que guiarão o desenvolvimento dessa plataforma.
 
 ### Requisitos Funcionais
 
@@ -89,7 +88,11 @@ O aplicativo de doação de sangue desempenha um papel crucial ao conectar doado
 | RF-010  | O aplicativo deve permitir a implementação de um sistema de rastreamento de doações e receptores | BAIXA      |
 
 
+RF-001 a RF-003 (Alta): Estes requisitos receberam alta prioridade devido à necessidade imediata em cumprir a missão central do aplicativo, que é conectar doadores aos locais de doação.
 
+RF-004 a RF-007 (Média): Estes requisitos, apesar de relevantes para enriquecer a usabilidade e fomentar a prática da doação, foram classificados como de média urgência em relação aos de alta prioridade.
+
+RF-008 a RF-010 (Baixa): Esses requisitos, ainda que contribuam para o enriquecimento da experiência do usuário, têm um grau menor de urgência e podem ser implementados em etapas posteriores do desenvolvimento.
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                       | Prioridade |
@@ -105,6 +108,11 @@ O aplicativo de doação de sangue desempenha um papel crucial ao conectar doado
 | RNF-009 | Privacidade: além de segurança, as informações pessoais dos usuários não devem ser compartilhadas indevidamente | BAIXA     |
 | RNF-010 | Localização: o aplicativo deve respeitar as preferências de idioma e localização do usuário | BAIXA     |
 
+RNF-001 a RNF-005 (Alta): Dada a importância crítica desses requisitos para a usabilidade, desempenho e segurança, eles foram classificados com alta prioridade.
+
+RNF-006 a RNF-008 (Média): São requisitos relevantes para a escalabilidade e eficiência do aplicativo no longo prazo, mas com menor urgência em relação aos requisitos de alta prioridade como a usabilidade.
+
+RNF-009 e RNF-010 (Baixa): Foram classificados como baixa prioridade, uma vez que podem ser aprimorados em etapas posteriores do desenvolvimento.
 
 ## Restrições
 
