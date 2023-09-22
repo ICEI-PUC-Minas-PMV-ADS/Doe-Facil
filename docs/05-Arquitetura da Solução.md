@@ -17,9 +17,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/83494301/e84c230c-4fc4-46c4-8b14-4d493d6298dc)
 
 ## Esquema Relacional
 
