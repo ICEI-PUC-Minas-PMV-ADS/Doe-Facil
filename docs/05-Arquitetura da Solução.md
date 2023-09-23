@@ -109,9 +109,38 @@ Para definir os critérios de qualidade da aplicação, utilizaremos a Norma de 
 **•	Capacidade para substituir:** Busca saber se o software pode substituir um outro no ambiente operacional. A aplicação visa ser disponibilizada em todas as plataformas mobile (Android, IOS e etc), e também ter um possível diferencial referente a outras aplicações que tenham a mesma função principal.
 
 
+## Métricas
 
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+Baseando nas informações coletadas por futuros usuários da aplicação e utilizando as características e subcaracterísticas definidas previamente para ela, foi definido as seguintes métricas:
+
+Obs: As escalas utilizadas possuem os seguintes valores:
+
+Escala Sim/Não/Em parte
+
+**- Sim:** Entre 100% a 70% de resposta
+
+**- Em parte:** Entre 60% a 40% de resposta
+
+**- Não:** Entre 30% e 0% de resposta
+
+
+| Subcaracterística | Métrica | Escala | Peso |
+|---------|--------------------------------------------------------------|--------------| -------------- |
+| Adequação | O sistema atende a função principal de localizar pontos de coleta de sangue? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Acurácia | O sistema entrega resultados corretos e com precisão adequada? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Segurança | O sistema mantém segura as informações e dados coletados? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Tolerância a falhas | O sistema se recupera de maneira eficiente após uma falha? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Maturidade | O sistema apresenta falhas frequentes? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Recuperabilidade | Ocorre perda de dados relevantes após uma falha? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Inteligibilidade | O sistema  demonstra com clareza sua função? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Apreensibilidade | É fácil utilizar a aplicação? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Atratividade | O sistema possui algum aspecto específico que chame atenção? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Comportamento em relação ao tempo | O sistema demora para responder uma solicitação? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Utilização de recursos | Os recursos utilizados entregam o que é solicitado? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Conformidade | O sistema entrega bons resultados em conformidade com o que foi estipulado? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Analisabilidade | É possível analisar e identificar falhas de forma eficiente? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Modificabilidade | O sistema permite que sejam feitas alterações necessárias? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Testabilidade | O sistema permites teste de usabilidade após cada alteração efetuada? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Capacidade de Instalação | O sistema é de fácil instalação? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Coexistencia | O sistema coexiste de forma natural com outras aplicações? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Capacidade para substituir | O sistema pode substituir algum outro sistema? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
