@@ -61,12 +61,10 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Os indicadores de desempenho são ferramentas essenciais para o gerenciamento eficaz de qualquer processo. Aqui estão os principais indicadores de desempenho e algumas metas para o processo.
 
-Usar o seguinte modelo: 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/83494301/08f62ddf-99f8-41d7-a9df-a14a2ba730df)
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
