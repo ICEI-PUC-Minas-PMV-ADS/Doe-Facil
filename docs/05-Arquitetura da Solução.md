@@ -48,12 +48,67 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+Para definir os critérios de qualidade da aplicação, utilizaremos a Norma de Qualidade de Produto de Software ISO/IEC 9126. Assim levantamos 6 características com 2 sub-características cada:
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+**1.	Funcionalidade – Refere-se a um conjunto de funções que venham satisfazer as necessidades estabelecidas nos requisitos.**
+   
+**•	Adequação:** Será analisado se o software atende bem a demanda para qual foi proposto. Foi escolhida essa sub-característica devido a aplicação ter como foco pessoas que desejam localizar ponto de coleta de sangue.
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+**•	Acurácia:** Visa analisar se a aplicação gera resultados corretos e resultados precisos como é pedido da aplicação, haja vista determinar locais aos quais os usuários se deslocarão, muita das vezes sem conhecer, para efetuar a coleta.
+
+**•	Segurança:** É a capacidade de manter protegido os dados dos usuários. Sendo uma aplicação que colherá e armazenará dados sensíveis, a Segurança é uma característica extremamente importante. Esse tópico irá avaliar a segurança da senha de acesso e os dados inseridos pelo usuário.
+
+
+
+**2.	Confiabilidade – Trata da capacidade do software em manter seu nível de desempenho, evitando falhas.**
+   
+**•	Tolerância a falhas:** Visa verificar como o software se comporta após uma falha. Se tratando de uma aplicação que pode ajudar a salvar vidas é imprescindível que o software reaja bem após uma falha. A tolerância deve ser avaliada de modo que o usuário não perca informações essenciais.
+
+**•	Maturidade:** É a frequência com que ocorrem falhas. Quanto maior o número de falhas menos maduro estará o software. É importante para a aplicação pois uma falha pode comprometer toda a aplicação, impossibilitando que usuários possam ir aos postos efetuar doações de sangue e, consequentemente, prejudicando aqueles que mais precisam.
+
+**•	Recuperabilidade:** Tem por foco verificar a capacidade do software de recuperar dados em um pós evento de falha. É necessário que não haja perda de dados relevantes ao usuário e que, caso ocorra, não seja de informações importantes.
+
+
+
+**4.	Usabilidade – Refere-se ao esforço necessário para que o usuário utilize o software.**
+   
+**•	Inteligibilidade:** Capacidade do software de passar o seu propósito de uso. Visando ser cessível a todas as pessoas, independente do nível de conhecimento ou idade, a aplicação deve ser de fácil interação e com um layout intuitivo.
+
+**•	Apreensibilidade:** Refere-se ao esforço necessário por parte do usuário para aprender a utilizar a aplicação. O software deverá ser criado visando o alto aprendizado e evitando gerar esforço na utilização por parte do usuário.
+
+**•	Atratividade:** Capacidade que o software possui de chamar atenção do usuário para algum aspecto importante de uso. Sendo uma ferramenta para auxiliar na doação de sangue, o foco estará em pontos de doação e os benefício que poderão ser recebidos através do ato, de acordo com as parcerias firmadas com empresas.
+
+
+
+**6.	Eficiência – Trata do nível de desempenho do software.**
+   
+**•	Comportamento em relação ao tempo:** Referente ao tempo de espera entre requisitar um dado e o software devolver. Em um aplicativo mobile é evidente que o usuário espera agilidade na apresentação das informações em sua tela. Com isto, aprimorar o desempenho da aplicação é fundamental.
+
+**•	Utilização de Recursos:** Refere-se aos recursos que serão gastos para entregar o que for requisitado. Será analisada a entrega de dados para garantir um tempo aceitável nas apresentações das informações ao usuário, sem necessitar de um grande uso de dados.
+
+**•	Conformidade:** Visa garantir um bom nível de serviço da aplicação, onde a entrega seja compatível com a performance idealizada. Com relação a aplicação, será verificado se os resultados exibidos nas pesquisas efetuadas pelos usuários retornam valor correto.
+
+
+
+**8.	Manutenabilidade – Refere-se ao esforço necessário para fazer alterações e modificações no software.**
+   
+**•	Analisabilidade:** É o esforço de analisar o projeto e entender onde está localizado o problema a ser corrigido. Pensando numa maior facilidade para a equipe de desenvolvimento, será analisado o código e averiguado a dificuldade ou facilidade na identificação de problemas que precisam ser resolvidos.
+
+**•	Modificabilidade:** Se refere ao esforço necessário para modificar o software. Analisar a documentação e a identação de códigos, fará com que os desenvolvedores tenham uma maior facilidade para identificar as funções de cada parte do código.
+
+**•	Testabilidade:** É o esforço utilizado para testar o software após as alterações realizadas. A equipe de desenvolvimento visa efetuar todos os testes de usabilidade necessários para funcionamento da aplicação e, caso haja necessidade de alterações, novos testes serão realizados.
+
+
+
+**10.	Portabilidade - Refere-se a capacidade do software de ser transferido de um ambiente para outro.**
+    
+**•	Capacidade de instalação:** Se refere a capacidade/facilidade em instalar o software. Sendo uma aplicação móvel, será feito a avaliação das possíveis dificuldades enfrentadas para a instalação do aplicativo.
+
+**•	Coexistência:** Identifica se o software consegue coexistir bem com outros sistemas instalados. Sendo uma aplicação móvel, será avaliado se há conflitos com os sistemas operacionais móbile e outros aplicativos já instalados.
+
+**•	Capacidade para substituir:** Busca saber se o software pode substituir um outro no ambiente operacional. A aplicação visa ser disponibilizada em todas as plataformas mobile (Android, IOS e etc), e também ter um possível diferencial referente a outras aplicações que tenham a mesma função principal.
+
+
 
 > **Links Úteis**:
 >
