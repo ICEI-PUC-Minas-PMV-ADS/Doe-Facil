@@ -48,12 +48,12 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Para definir os critérios de qualidade da aplicação, utilizaremos a Norma de Qualidade de Produto de Software ISO/IEC 9126. Assim levantamos 6 características com 3 sub-características cada:
+Para definir os critérios de qualidade da aplicação, utilizaremos a Norma de Qualidade de Produto de Software ISO/IEC 9126. Assim, levantamos 6 características com 3 sub-características cada:
 
 **1.	Funcionalidade – Refere-se a um conjunto de funções que venham satisfazer as necessidades estabelecidas nos requisitos.**
 | -------------------------------------------------------------------------------- |
 | **Adequação:** Será analisado se o software atende bem a demanda para qual foi proposto. Foi escolhida essa sub-característica devido a aplicação ter como foco pessoas que desejam localizar ponto de coleta de sangue. |
-| **Acurácia:** Visa analisar se a aplicação gera resultados corretos e resultados precisos como é pedido da aplicação, haja vista determinar locais aos quais os usuários se deslocarão, muita das vezes sem conhecer, para efetuar a coleta. |
+| **Acurácia:** Visa analisar se a aplicação gera resultados corretos e precisos como é pedido da aplicação, já que sua função é determinar locais aos quais os usuários se deslocarão, muita das vezes sem conhecer, para efetuar a coleta. |
 | **Segurança:** É a capacidade de manter protegido os dados dos usuários. Sendo uma aplicação que colherá e armazenará dados sensíveis, a Segurança é uma característica extremamente importante. Esse tópico irá avaliar a segurança da senha de acesso e os dados inseridos pelo usuário. |
 
 
@@ -66,23 +66,23 @@ Para definir os critérios de qualidade da aplicação, utilizaremos a Norma de 
 
 
 
-**4.	Usabilidade – Refere-se ao esforço necessário para que o usuário utilize o software.**
+**3.	Usabilidade – Refere-se ao esforço necessário para que o usuário utilize o software.**
 | ----------------------------------------------------------------------------------- |
-| **Inteligibilidade:** Capacidade do software de passar o seu propósito de uso. Visando ser cessível a todas as pessoas, independente do nível de conhecimento ou idade, a aplicação deve ser de fácil interação e com um layout intuitivo. |
+| **Inteligibilidade:** Capacidade do software de passar o seu propósito de uso. Visando ser acessível a todas as pessoas, independente do nível de conhecimento ou idade, a aplicação deve ser de fácil interação e com um layout intuitivo. |
 | **Apreensibilidade:** Refere-se ao esforço necessário por parte do usuário para aprender a utilizar a aplicação. O software deverá ser criado visando o alto aprendizado e evitando gerar esforço na utilização por parte do usuário. |
 | **Atratividade:** Capacidade que o software possui de chamar atenção do usuário para algum aspecto importante de uso. Sendo uma ferramenta para auxiliar na doação de sangue, o foco estará em pontos de doação e os benefício que poderão ser recebidos através do ato, de acordo com as parcerias firmadas com empresas. |
 
 
 
-**6.	Eficiência – Trata do nível de desempenho do software.**
+**4.	Eficiência – Trata do nível de desempenho do software.**
 | ----------------------------------------------------------------------------------- |
 | **Comportamento em relação ao tempo:** Referente ao tempo de espera entre requisitar um dado e o software devolver. Em um aplicativo mobile é evidente que o usuário espera agilidade na apresentação das informações em sua tela. Com isto, aprimorar o desempenho da aplicação é fundamental. |
-| **Utilização de Recursos:** Refere-se aos recursos que serão gastos para entregar o que for requisitado. Será analisada a entrega de dados para garantir um tempo aceitável nas apresentações das informações ao usuário, sem necessitar de um grande uso de dados. |
+| **Utilização de Recursos:** Refere-se aos recursos que serão gastos para entregar o que foi requisitado. Será analisada a entrega de dados para garantir um tempo aceitável nas apresentações das informações ao usuário, sem necessitar de um grande uso de dados. |
 | **Conformidade:** Visa garantir um bom nível de serviço da aplicação, onde a entrega seja compatível com a performance idealizada. Com relação a aplicação, será verificado se os resultados exibidos nas pesquisas efetuadas pelos usuários retornam valor correto. |
 
 
 
-**8.	Manutenabilidade – Refere-se ao esforço necessário para fazer alterações e modificações no software.**
+**5.	Manutenabilidade – Refere-se ao esforço necessário para fazer alterações e modificações no software.**
 | ----------------------------------------------------------------------------------- |
 | **Analisabilidade:** É o esforço de analisar o projeto e entender onde está localizado o problema a ser corrigido. Pensando numa maior facilidade para a equipe de desenvolvimento, será analisado o código e averiguado a dificuldade ou facilidade na identificação de problemas que precisam ser resolvidos. |
 | **Modificabilidade:** Se refere ao esforço necessário para modificar o software. Analisar a documentação e a identação de códigos, fará com que os desenvolvedores tenham uma maior facilidade para identificar as funções de cada parte do código. |
@@ -90,7 +90,7 @@ Para definir os critérios de qualidade da aplicação, utilizaremos a Norma de 
 
 
 
-**10.	Portabilidade - Refere-se a capacidade do software de ser transferido de um ambiente para outro.**
+**6.	Portabilidade - Refere-se a capacidade do software de ser transferido de um ambiente para outro.**
 | ----------------------------------------------------------------------------------- |   
 | **Capacidade de instalação:** Se refere a capacidade/facilidade em instalar o software. Sendo uma aplicação móvel, será feito a avaliação das possíveis dificuldades enfrentadas para a instalação do aplicativo. |
 | **Coexistência:** Identifica se o software consegue coexistir bem com outros sistemas instalados. Sendo uma aplicação móvel, será avaliado se há conflitos com os sistemas operacionais móbile e outros aplicativos já instalados. |
@@ -119,16 +119,16 @@ Escala Sim/Não/Em parte
 | Segurança | O sistema mantém segura as informações e dados coletados? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
 | Tolerância a falhas | O sistema se recupera de maneira eficiente após uma falha? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
 | Maturidade | O sistema apresenta falhas frequentes? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
-| Recuperabilidade | Ocorre perda de dados relevantes após uma falha? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
-| Inteligibilidade | O sistema  demonstra com clareza sua função? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
-| Apreensibilidade | É fácil utilizar a aplicação? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
-| Atratividade | O sistema possui algum aspecto específico que chame atenção? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Recuperabilidade | Ocorre perda de dados relevantes após uma falha? | 1) Sim <br> 2) Não <br> 3) Em parte | Médio |
+| Inteligibilidade | O sistema  demonstra com clareza sua função? | 1) Sim <br> 2) Não <br> 3) Em parte | Médio |
+| Apreensibilidade | É fácil utilizar a aplicação? | 1) Sim <br> 2) Não <br> 3) Em parte | Médio |
+| Atratividade | O sistema possui algum aspecto específico que chame atenção? | 1) Sim <br> 2) Não <br> 3) Em parte | Baixo |
 | Comportamento em relação ao tempo | O sistema demora para responder uma solicitação? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
 | Utilização de recursos | Os recursos utilizados entregam o que é solicitado? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
 | Conformidade | O sistema entrega bons resultados em conformidade com o que foi estipulado? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
 | Analisabilidade | É possível analisar e identificar falhas de forma eficiente? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
 | Modificabilidade | O sistema permite que sejam feitas alterações necessárias? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
-| Testabilidade | O sistema permites teste de usabilidade após cada alteração efetuada? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Testabilidade | O sistema permites teste de usabilidade após cada alteração efetuada? | 1) Sim <br> 2) Não <br> 3) Em parte | Médio |
 | Capacidade de Instalação | O sistema é de fácil instalação? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
-| Coexistencia | O sistema coexiste de forma natural com outras aplicações? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
-| Capacidade para substituir | O sistema pode substituir algum outro sistema? | 1) Sim <br> 2) Não <br> 3) Em parte | Alto |
+| Coexistencia | O sistema coexiste de forma natural com outras aplicações? | 1) Sim <br> 2) Não <br> 3) Em parte | Médio |
+| Capacidade para substituir | O sistema pode substituir algum outro sistema? | 1) Sim <br> 2) Não <br> 3) Em parte | Baixo |
