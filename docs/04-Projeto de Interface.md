@@ -26,5 +26,6 @@ A "Tela de Detalhes" oferece informações mais específicas sobre cada local.
 
 Neste trabalho, apresentamos o design e a funcionalidade de um aplicativo móvel dedicado a facilitar o processo de encontrar locais para doações. Ao inserir um endereço na "Tela de Bunca", o usuário pode rapidamente visualizar os locais de doação mais próximos. Para oferecer uma visão mais concreta de como o aplicativo irá funcionar, um link com o wireframe detalhado de todas as telas principais será fornecido a seguir.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FayFGk3K3zU8JpS4x3daFPa%2FDoe-F%25C3%25A1cil%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-191%26viewport%3D-171%252C578%252C0.5%26t%3D9WVyUNJxGYlCKk5K-1%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A31%26mode%3Ddesign" allowfullscreen></iframe>
+[Ver Wireframe no Figma](https://www.figma.com/proto/ayFGk3K3zU8JpS4x3daFPa/Doe-F%C3%A1cil?page-id=0%3A1&type=design&node-id=1-191&viewport=-171%2C578%2C0.5&t=9WVyUNJxGYlCKk5K-1&scaling=scale-down&starting-point-node-id=1%3A31&mode=design)
+
  
