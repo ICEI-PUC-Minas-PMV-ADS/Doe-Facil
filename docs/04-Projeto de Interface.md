@@ -16,15 +16,15 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+O wireframe para o aplicativo móvel tem como objetivo simplificar o processo de localizar locais para doações de sangue. Atuando como o esqueleto visual do aplicativo, o wireframe delineia o layout e as funcionalidades das principais telas.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+A "Tela Inicial" oferece uma visão geral, com o logo do aplicativo e um botão principal para "Pontos de Doação", um boletim com as informações relaciodadas às doações. Isso permite que o usuário inicie a busca de forma rápida e intuitiva.
+
+Na "Tela de Busca", os locais de doação mais próximos ao endereço inserido são listados. O usuário pode então selecionar um local para ver mais detalhes na "Tela de Detalhes", que fornece informações como, horários de funcionamento e tipos de doações aceitas.
+
+A "Tela de Detalhes" oferece informações mais específicas sobre cada local.
+
+Neste trabalho, apresentamos o design e a funcionalidade de um aplicativo móvel dedicado a facilitar o processo de encontrar locais para doações. Ao inserir um endereço na "Tela de Bunca", o usuário pode rapidamente visualizar os locais de doação mais próximos. Para oferecer uma visão mais concreta de como o aplicativo irá funcionar, um link com o wireframe detalhado de todas as telas principais será fornecido a seguir.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FayFGk3K3zU8JpS4x3daFPa%2FDoe-F%25C3%25A1cil%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-191%26viewport%3D-171%252C578%252C0.5%26t%3D9WVyUNJxGYlCKk5K-1%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A31%26mode%3Ddesign" allowfullscreen></iframe>
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
