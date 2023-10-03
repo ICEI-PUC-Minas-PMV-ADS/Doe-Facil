@@ -39,20 +39,33 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 | Lucidchart                              | Elaboração de esquemas e fluxogramas                                 |
 | Figma                                   | Prototipagem e design de UI/UX                                       |
 | React, React Native, React Native Paper | Conjunto de ferramentas para desenvolvimento                         |
-| C#, HTML, CSS, JavaScript, JSON         | Linguagens para desenvolvimento                                      |
+| HTML, CSS, JavaScript, JSON             | Linguagens para desenvolvimento                                      |
 | Postman                                 | Verificação e testes de APIs                                         |
-
+| AWS                                     | Plataforma de serviços de cloud                                      |
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+### Utilizando o GitHub
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+1. **Repositório**: Primeiramente, criamos um repositório no GitHub para armazenar nosso código-fonte e documentação. Isso nos permite fazer o versionamento e facilita a colaboração entre membros da equipe.
+
+2. **Branching e Merging**: Utilizamos o recurso de branching para desenvolver novas funcionalidades ou corrigir bugs, e depois integramos essas alterações no branch principal através de Pull Requests.
+
+3. **CI/CD**: Configuramos uma pipeline de Integração Contínua/Entrega Contínua para automatizar testes e outros checks antes de mesclar as alterações.
+
+### Utilizando a AWS
+
+1. **EC2**: Configuramos uma instância do Amazon EC2 para hospedar nossa aplicação. O EC2 nos oferece a flexibilidade de escolher o tipo de instância que melhor se adapta às nossas necessidades.
+
+2. **S3**: Utilizamos o Amazon S3 para armazenar arquivos estáticos, como imagens, CSS e JavaScript. 
+
+3. **RDS**: Para o banco de dados, optamos pelo Amazon RDS, que facilita tarefas como backups, patching e recuperação.
+
+4. **Deploy**: Usamos o AWS CodeDeploy para automatizar o deploy de nossa aplicação na instância do EC2.
+
+5. **Monitoramento**: Finalmente, configuramos o Amazon CloudWatch para monitorar o desempenho da nossa aplicação e receber alertas em caso de problemas.
+
+Com o GitHub e a AWS, conseguimos criar um fluxo de desenvolvimento eficiente que nos permite lançar atualizações de forma rápida e segura.
 
 ## Qualidade de Software
 
