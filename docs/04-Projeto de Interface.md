@@ -26,7 +26,7 @@ A "Tela de Detalhes" oferece informações mais específicas sobre cada local.
 
 Neste trabalho, apresentamos o design e a funcionalidade de um aplicativo móvel dedicado a facilitar o processo de encontrar locais para doações. Ao inserir um endereço na "Tela de Bunca", o usuário pode rapidamente visualizar os locais de doação mais próximos. Para oferecer uma visão mais concreta de como o aplicativo irá funcionar, um link com o wireframe detalhado de todas as telas principais será fornecido a seguir.
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/93cfef55-6982-4153-8d70-aa8a37c7d0c6" width="100" />
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/2683fff4-d2d3-46cc-a107-ba6feea02d26" width="100" /> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/b32ba005-25f8-447f-9332-6f593ca2fb14" width="100" />
