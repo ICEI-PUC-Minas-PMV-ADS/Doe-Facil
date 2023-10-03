@@ -4,6 +4,16 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/blob/main/docs/img/Doe%20Facil%20(2).jpg)
 
+### Fluxo da arquitetura
+
+1. **Usuários** fazem uma **requisição** através do **Frontend** ou do aplicativo **Mobile**.
+2. A **requisição** é então encaminhada para o **Backend**, que a processa.
+3. O **Backend** faz uma série de operações, que podem envolver a criação, leitura, atualização ou exclusão de dados no **MySQL**.
+4. Após o processamento, uma **resposta** é gerada e enviada de volta para o **Frontend** ou **Mobile**.
+
+Esta arquitetura permite uma segregação clara das responsabilidades e facilita futuras melhorias em cada componente individualmente.
+
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
