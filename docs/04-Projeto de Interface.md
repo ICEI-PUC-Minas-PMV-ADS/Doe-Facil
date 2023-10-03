@@ -26,6 +26,14 @@ A "Tela de Detalhes" oferece informações mais específicas sobre cada local.
 
 Neste trabalho, apresentamos o design e a funcionalidade de um aplicativo móvel dedicado a facilitar o processo de encontrar locais para doações. Ao inserir um endereço na "Tela de Bunca", o usuário pode rapidamente visualizar os locais de doação mais próximos. Para oferecer uma visão mais concreta de como o aplicativo irá funcionar, um link com o wireframe detalhado de todas as telas principais será fornecido a seguir.
 
+<p float="left">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/93cfef55-6982-4153-8d70-aa8a37c7d0c6" width="100" />
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/2683fff4-d2d3-46cc-a107-ba6feea02d26" width="100" /> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/b32ba005-25f8-447f-9332-6f593ca2fb14" width="100" />
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/3ac6388a-c132-4faa-8077-aa10ed7422e7" width="100" />
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/54285614/f1374a5f-dd17-4743-9868-c132d5c89528" width="100" />
+</p>
+
 [Ver Wireframe no Figma](https://www.figma.com/proto/ayFGk3K3zU8JpS4x3daFPa/Doe-F%C3%A1cil?page-id=0%3A1&type=design&node-id=1-191&viewport=-171%2C578%2C0.5&t=9WVyUNJxGYlCKk5K-1&scaling=scale-down&starting-point-node-id=1%3A31&mode=design)
 
  
