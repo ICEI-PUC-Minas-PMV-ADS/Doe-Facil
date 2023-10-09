@@ -45,7 +45,7 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 - `Scrum Master`: Milleny Ellen Jodas Ferreira;
 - `Product Owner`: Gabriel Gonçalves Morais;
 - `Equipe de Desenvolvimento`: Gabriel Gonçalves Morais, Joice Ferreira Passos, Milleny Ellen Jodas Ferreira, Iane Victoria dos Santos Oliveira e Paula Elizabeth Bessa Lucio Martins;
-- `Equipe de Design`: Gabriel Gonçalves Morais e Joice Ferreira Passos.
+- `Equipe de Design`: Iane Victoria dos Santos Oliveira e Joice Ferreira Passos.
 
 
 ### Processo
