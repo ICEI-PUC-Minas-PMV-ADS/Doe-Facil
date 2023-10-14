@@ -34,7 +34,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 ## Modelo Físico
 
-Disponibilizamos o arquivo SQL do Banco de dados [AQUI]('./src/bd/banco.sql')
+Disponibilizamos o arquivo SQL do Banco de dados [AQUI](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/tree/dev/src/bd)
 
 ## Tecnologias Utilizadas
 
