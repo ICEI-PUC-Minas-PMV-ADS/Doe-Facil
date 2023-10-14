@@ -10,8 +10,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     flex: 1,
     padding: 10,
-    alignItems: 'center',
-    justifyContent: 'space-between'
   },
 });
 

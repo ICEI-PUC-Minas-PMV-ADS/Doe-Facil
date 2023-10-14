@@ -8,8 +8,8 @@ const Header = () => {
             <Appbar.Content title={
                 <Image source={require("../../assets/doe-facil.png")}
                     style={{
-                        width: 120,
-                        height: 30,
+                        width: 90,
+                        height: 20,
                     }}
                 />} 
             style={styles.title} />
