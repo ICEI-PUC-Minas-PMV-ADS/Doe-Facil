@@ -9,13 +9,12 @@ const Title = ({ title }) => {
         <View>
             <Text style={styles.title}>{title}</Text>
             <View style={styles.titleView}>
-                <HeaderTitle numberOfLines={2}>
+                <Text  style={styles.headerTitle} numberOfLines={2}>
                     {title}
-                </HeaderTitle>
-                <SearchButton onPress={() => {}}>
-                    {/* Substitua SearchIcon pelo seu componente de ícone */}
-                    {/* <SearchIcon width="26" height="26" fill="#FFFFFF" /> */}
-                </SearchButton>
+                </Text>
+                <TouchableOpacity style={styles.SearchButton} onPress={() => {}}>
+                    
+                </TouchableOpacity>
             </View>
         </View>
     );
@@ -32,18 +31,18 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
     },
+    headerTitle: {
+        width: 250,
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: '#FFF'
+    },
+    SearchButton: {
+        width: 26,
+        height: 26
+    }
+    
 });
 
-export const HeaderTitle = styled.Text`
-    width: 250px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #FFF;
-`;
-
-export const SearchButton = styled.TouchableOpacity`
-    width: 26px;
-    height: 26px;
-`;
 
 export default Title;
