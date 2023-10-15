@@ -68,7 +68,9 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         flexDirection: 'row',
         gap: 5,
-        marginBottom: 30
+        marginBottom: 30,
+        justifyContent: 'center',
+        width: '100%'
     },
     bold: {
         color: '#D3302F',
