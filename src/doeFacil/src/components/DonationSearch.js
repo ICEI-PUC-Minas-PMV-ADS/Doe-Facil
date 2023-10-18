@@ -50,9 +50,12 @@ const DonationSearch = () => {
 const styles = StyleSheet.create({
   container: {
     padding: 10,
+    backgroundColor: '#F6F7FB',
+    borderRadius: 10,
+    marginBottom: 20,
   },
   label: {
-    color: '#DE302F',
+    color: '#D3302F',
     fontSize: 16,
     fontWeight: '700',
     marginBottom: 10,
@@ -67,7 +70,7 @@ const styles = StyleSheet.create({
     width: 24,
     borderRadius: 12,
     borderWidth: 2,
-    borderColor: 'red',
+    borderColor: '#D3302F',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -75,13 +78,13 @@ const styles = StyleSheet.create({
     height: 18,
     width: 18,
     borderRadius: 9,
-    backgroundColor: 'red',
+    backgroundColor: '#D3302F',
   },
   checkboxLabel: {
-    color: '#DE302F',
+    color: '#333',
     fontSize: 15,
     fontWeight: '300',
-    marginLeft: 8, // Adicionado espaçamento
+    marginLeft: 8,
   },
 });
 

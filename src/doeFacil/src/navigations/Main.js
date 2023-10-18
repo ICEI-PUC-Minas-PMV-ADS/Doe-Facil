@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomePage from '../pages/HomePage.js';
 import LoginPage from '../pages/LoginPage.js';
 import DonationPointsPage from '../pages/DonationPointsPage.js';
+import LocalDonorsListPage from '../pages/LocalDonorsListPage.js';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +24,11 @@ const Main = () => {
       <Stack.Screen
         name="DonationPointsPage"
         component={DonationPointsPage}
+        options={{ header: () => null }}
+      />
+      <Stack.Screen
+        name="LocalDonorsListPage"
+        component={LocalDonorsListPage}
         options={{ header: () => null }}
       />
     </Stack.Navigator>

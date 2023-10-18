@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TextInput, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, TextInput, FlatList, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 
 const AddressInput = () => {
@@ -48,20 +48,22 @@ const AddressInput = () => {
           }}
           value={address}
         />
-        <FlatList
-          data={suggestions}
-          keyExtractor={(item) => item.place_id.toString()}
-          renderItem={({ item }) => (
-            <TouchableOpacity
-              onPress={() => selectAddress(item)}
-              style={styles.suggestion}
-            >
-              <Text>{item.display_name}</Text>
-            </TouchableOpacity>
-          )}
-        />
+        <ScrollView style={styles.scrollView}>
+          <FlatList
+            data={suggestions}
+            keyExtractor={(item) => item.place_id.toString()}
+            renderItem={({ item }) => (
+              <TouchableOpacity
+                onPress={() => selectAddress(item)}
+                style={styles.suggestion}
+              >
+                <Text style={styles.suggestionText}>{item.display_name}</Text>
+              </TouchableOpacity>
+            )}
+          />
+        </ScrollView>
         {latitude && longitude ? (
-          <Text>Latitude: {latitude}, Longitude: {longitude}</Text>
+          <Text style={styles.coordinates}>Latitude: {latitude}, Longitude: {longitude}</Text>
         ) : null}
       </View>
     </LinearGradient>
@@ -71,27 +73,44 @@ const AddressInput = () => {
 const styles = StyleSheet.create({
     gradientContainer: {
         borderRadius: 10,
-        padding: 10,
-        flex: 1 // Faz com que o contêiner ocupe todo o espaço disponível
+        padding: 12,
+        marginBottom: 20,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.2,
+        shadowRadius: 4,
+        maxHeight: 300, // Altura máxima fixa
       },
       container: {
-        borderWidth: 1,
-        borderColor: 'transparent',
-        padding: 15, // Aumento no padding
+        backgroundColor: 'white',
         borderRadius: 5,
-        flex: 1 // Faz com que o contêiner ocupe todo o espaço disponível
+        flex: 1,
+        padding: 15,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
       },
       input: {
-        backgroundColor: 'white',
-        padding: 12, // Aumento no padding
         borderRadius: 5,
         marginBottom: 10,
+        paddingHorizontal: 12,
+        paddingVertical: 10,
+      },
+      scrollView: {
+        maxHeight: 200, 
       },
       suggestion: {
-        backgroundColor: 'rgba(255, 255, 255, 0.8)',
-        padding: 12, // Aumento no padding
+        padding: 12,
         marginBottom: 5,
         borderRadius: 5,
+      },
+      suggestionText: {
+        color: '#333',
+      },
+      coordinates: {
+        marginTop: 10,
+        color: '#666',
       },
 });
 

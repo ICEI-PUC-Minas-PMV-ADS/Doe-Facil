@@ -1,48 +1,25 @@
 import React from 'react';
 import { Text, StyleSheet, View, TouchableOpacity } from 'react-native';
+import { FontAwesome } from '@expo/vector-icons'; 
 
-import styled from 'styled-components/native';
-
-
-const Title = ({ title }) => {
+const Title = ({ title, onSearchPress }) => {
     return (
-        <View>
+        <View style={styles.titleContainer}>
             <Text style={styles.title}>{title}</Text>
-            <View style={styles.titleView}>
-                <Text  style={styles.headerTitle} numberOfLines={2}>
-                    {title}
-                </Text>
-                <TouchableOpacity style={styles.SearchButton} onPress={() => {}}>
-                    
-                </TouchableOpacity>
-            </View>
         </View>
     );
 };
 
 const styles = StyleSheet.create({
+    titleContainer: {
+        marginBottom: 20,
+    },
     title: {
-        color: 'black',
-        fontSize: 24,
+        color: '#333',
+        fontSize: 28,
         fontWeight: '700',
+        marginBottom: 10,
     },
-    titleView: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-    },
-    headerTitle: {
-        width: 250,
-        fontSize: 24,
-        fontWeight: 'bold',
-        color: '#FFF'
-    },
-    SearchButton: {
-        width: 26,
-        height: 26
-    }
-    
 });
-
 
 export default Title;
