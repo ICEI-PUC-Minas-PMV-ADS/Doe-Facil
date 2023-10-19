@@ -41,23 +41,27 @@ A partir da compreensão do dia a dia das pessoas identificadas para o projeto, 
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+O Brasil tem uma baixa taxa de doação de sangue, com apenas 1,4% da população doando regularmente. Isso ocorre devido a barreiras como medo e falta de informação. A pandemia de Covid-19 agravou esse cenário, com uma significativa queda nas doações. Mesmo com a retomada do crescimento das doações, ainda há uma enorme dificuldade para recrutar doadores, o que tem resultado em uma diminuição nos estoques de sangue nos bancos de sangue.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+O aplicativo proposto visa ser um mecanismo mais permanente e abrangente de engajamento, informações e educação sobre doação de sangue. Ele conta com funcionalidades como cadastro dos doadores, localização de hemocentros e lembretes sobre doações.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Login do Usuário
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+![Processo 1](img/loginProcesso.png)
 
-![Processo 1](img/02-bpmn-proc1.png)
+### Processo 2 – Editar perfil do usuário
 
-### Processo 2 – NOME DO PROCESSO
+![Processo 2](img/perfilProcesso.png)
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+### Processo 3 – Agendamento de Doações de Sangue
 
-![Processo 2](img/02-bpmn-proc2.png)
+![Processo 2](img/agendamentoProcesso.png)
+
+### Processo 4 – Informações sobre doação de sangue
+
+![Processo 2](img/informacoesProcesso.png)
 
 ## Indicadores de Desempenho
 
