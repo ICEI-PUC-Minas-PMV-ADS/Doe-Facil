@@ -32,11 +32,8 @@ Neste trabalho, apresentamos o design e a funcionalidade de um aplicativo móvel
 | ![image6](img/detalhes-local.png) | ![image7](img/editar-perfil.png) | ![image8](img/tela-busca.png) | ![image9](img/pontos-doacao.png) | ![image10](img/candidatos-doacao.png) |
 |:---:|:---:|:---:|:---:|:---:|
 
-| ![image11](img/informativo.png) | ![image12](img/como-doar.png) | ![image13](img/beneficios.png) | ![image14](img/requisitos.png) | ![image15](img/onde-doar.png) | 
-|:---:|:---:|:---:|:---:|:---:|
-
-| ![image16](img/como-preparar.png)  
-|:---:|
+| ![image11](img/informativo.png) | ![image12](img/como-doar.png) | ![image13](img/beneficios.png) | ![image14](img/requisitos.png) | ![image15](img/onde-doar.png) | ![image16](img/como-preparar.png) |
+|:---:|:---:|:---:|:---:|:---:|:---:| 
 
 
 
