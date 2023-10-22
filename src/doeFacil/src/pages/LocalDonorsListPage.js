@@ -72,8 +72,8 @@ const styles = StyleSheet.create({
     },
 
     donorCard: {
-        padding: 20, // Aumente o valor para aumentar a área em vermelho
-        marginBottom: 30, // Aumente o valor para aumentar a área em vermelho
+        padding: 30, 
+        marginBottom: 40, 
         borderRadius: 20,
         shadowColor: '#000',
         shadowOffset: {
