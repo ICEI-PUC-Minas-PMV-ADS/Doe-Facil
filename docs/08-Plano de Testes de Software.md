@@ -2,18 +2,37 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+| Caso de Teste | CT-01 - Realizar cadastro |
+|---------------|-----------------------------|
+| Requisitos Associado | RF-001 - O aplicativo deve permitir que o usuário realize o cadastro |
+| Objetivo do Teste | Verificar se o usuário consegue se cadastrar na aplicação |
+| Passos | - Acessar o navegador <br> - Informar ao navegador a URL <br> - Clicar em "Ainda não tem conta? Clique aqui" <br> - Informar os dados <br> - Clicar em "Cadastrar" |
+| Critérios de Êxito | O usuário consegue acessar a página inicial. |
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| Caso de Teste | CT-02 - Efetuar o login |
+|---------------|---------------------------------|
+| Requisitos Associado | RF-002 - O aplicativo deve permitir que os usuários efetuem o processo de login |
+| Objetivo do Teste | Verificar se o usuário consegue efetuar login na aplicação |
+| Passos | - Acessar o navegador <br> - Informar ao navegador a URL <br> - Informar os dados <br> - Clicar em "Entrar" |
+| Critérios de Êxito | O usuário consegue acessar a página inicial. | 
+
+| Caso de Teste | CT-03 - Visualizar locais de doação próximos |
+|------------------|-----------------------------------------|
+| Requisitos Associado | RF-003 - O aplicativo deve permitir a exibição de uma lista de locais de doação próximos ao usuário |
+| Objetivo do Teste | Verificar se o usuário logado consegue visualizar a página de locais de doação próximos a ele  |
+| Passos | - Acessar o navegador <br> - Informar ao navegador a URL <br> - Efetuar login <br> - Na página inicial, o usuário deve clicar no botão "Pontos de doação" |
+| Critérios de Êxito | - |
+
+| Caso de Teste | CT-04 - Cadastrar uma pessoa que precise de doação de sangue |
+| Requisitos Associado | RF-005 - O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações |
+| Objetivo do Teste | Verificar se o usuário consegue cadastrar o nome de uma pessoa que precisa de doação de sangue |
+| Passos | - Acessar o navegador <br> - Informar ao navegador a URL <br> - Efetuar login <br> - Na página inicial, o usuário deve clicar no ícone representando uma pessoa <br> - |
+| Critérios de Êxito | - |
+
+| Caso de Teste | CT-05 - Acessar informações sobre doação de sangue |
+| Requisitos Associado | RF-008 - O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação |
+| Objetivo do Teste | Verificar se o usuário consegue visualizar informações sobre o procedimento de doação de sangue |
+| Passos | - Acessar o navegador <br> - Informar ao navegador a URL <br> - Efetuar login <br> - Na página inicial, o usuário deve clicar no ícone file <br> |
+| Critérios de Êxito | O usuário consegue visualizar as informações. |
