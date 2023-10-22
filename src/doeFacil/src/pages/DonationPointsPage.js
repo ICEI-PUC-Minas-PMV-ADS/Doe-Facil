@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { StyleSheet, TouchableOpacity, View, Text, Picker, Dimensions } from 'react-native';
+import { StyleSheet, TouchableOpacity, View, Text, Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 import API from "../services/Api.js";
+
+import { Picker } from '@react-native-picker/picker';
 
 import Header from "../components/Header.js";
 import Container from "../components/Container.js";
@@ -21,8 +23,8 @@ function DonationPointsPage() {
       // navigation.navigate('DonationPointsListPage', { locationS });
     }
     else {
-      const localDonorsS = await API.getLocalDonors();
-      navigation.navigate('LocalDonorsListPage', { localDonorsS });
+      const localDonors = await API.getLocalDonors();
+      navigation.navigate('LocalDonorsListPage', { localDonors });
      
     }
   }

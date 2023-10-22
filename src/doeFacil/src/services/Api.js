@@ -106,9 +106,19 @@ export default  {
     return FAKE_API.locations.find(loc => loc.locationId === locationId);
   },
   getLocalDonors: async () => {
-  
-    return FAKE_API.localDonors;
+    return FAKE_API.localDonors.map(donor => {
+      const user = FAKE_API.users.find(u => u.id === donor.userId);
+      const location = FAKE_API.locations.find(l => l.locationId === donor.locationId);
+      const address = FAKE_API.address.find(a => a.locationId === donor.locationId);
+      return {
+        ...donor,
+        user,
+        location,
+        address,
+      };
+    });
   },
+  
   getLocalDonorById: async (localDonorId) => {
     return FAKE_API.localDonors.find(donor => donor.localDonorId === localDonorId);
   }
