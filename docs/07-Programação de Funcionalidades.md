@@ -16,6 +16,8 @@ Dei início ao estudo do Microfundamento de Desenvolvimento de Aplicações Móv
 
 Acompanhando o aprendizado do Microfundamento de Desenvolvimento de Aplicações Móveis, seguir alguns exemplos conforme as diretrizes e orientações fornecidas pelo professor Kleber Souza. Abaixo, estão as capturas de tela que demonstram o que estou desenvolvendo:
 
+![Iane Victoria - Tela Infoinicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/83494301/ee0f06a8-594d-4c70-805e-45a47fb7ac71)
+
 ![Iane Victoria - Tela InfoBenecifios](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/83494301/72c7c456-4a0d-4254-a009-1271434d5b05)
 
 ![Iane Victoria - Video Aula](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/83494301/d723d9c0-b07a-472f-936e-80a7cfb58c22)
