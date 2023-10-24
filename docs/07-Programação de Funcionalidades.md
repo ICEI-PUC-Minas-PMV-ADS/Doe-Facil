@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-### Tela Listagem de Pontos de Coleta - Responsável: Paula
+## Tela Listagem de Pontos de Coleta - Responsável: Paula
 
 Dei início ao estudo do Microfundamento de Desenvolvimento de Aplicações Móveis, reproduzindo os exemplos, conforme instruções e orientações dadas pelo professor Kleber Souza. Segue, abaixo, prints das telas evidenciando a descrição acima:
 
@@ -11,3 +11,23 @@ Dei início ao estudo do Microfundamento de Desenvolvimento de Aplicações Móv
 ![Paula - Exemplo 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/blob/dev/docs/img/Aula%20React%20VII%20-%20Paula.png)
 
 ![Paula - Exemplo 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/blob/dev/docs/img/Aula%20React%20X%20-%20Paula.png)
+
+
+## Tela Login - Responsável: Milleny
+
+- Terminando a unidade 2 do Microfundamento de Desenvolvimento de Aplicações Móveis.
+- Tela quase pronta, faltando a persistência de dados.
+
+| ![Parte do código da tela Login](./docs/img/code-login.png) | ![Tela de Login](./docs/img/print-tela-login.png) |
+|:---:|:---:|
+![Parte do código da tela Login](./docs/img/code-login.png)
+[Visualizar todo o código](../src/doeFacil/src/pages/LoginPage.js)
+
+## Tela Inicial da aplicação - Responsável: Milleny
+
+- Terminando a unidade 2 do Microfundamento de Desenvolvimento de Aplicações Móveis.
+- Falta algumas implementações, mas está quase pronta.
+
+| ![arte do código da tela Inicial](./docs/img/code-tela-inicial.png) | ![Tela Inicial](./docs/img/print-tela-inicial.png) |
+|:---:|:---:|
+[Visualizar todo o código](../src/doeFacil/src/pages/InicialPage.js)

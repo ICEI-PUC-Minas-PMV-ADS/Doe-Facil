@@ -39,7 +39,6 @@ Neste trabalho, apresentamos o design e a funcionalidade de um aplicativo móvel
 |:---:|
 
 
-
 [Ver Wireframe no Figma](https://www.figma.com/proto/ayFGk3K3zU8JpS4x3daFPa/Doe-F%C3%A1cil?page-id=0%3A1&type=design&node-id=1-191&viewport=-171%2C578%2C0.5&t=9WVyUNJxGYlCKk5K-1&scaling=scale-down&starting-point-node-id=1%3A31&mode=design)
 
  
