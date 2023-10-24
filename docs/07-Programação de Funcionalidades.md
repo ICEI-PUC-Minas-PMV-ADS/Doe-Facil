@@ -33,9 +33,9 @@ OBS: Ainda não fiz o upload porque estou enfrentando muitos bugs. Como estou ap
 - Terminando a unidade 2 do Microfundamento de Desenvolvimento de Aplicações Móveis.
 - Tela quase pronta, faltando a persistência de dados.
 
-| ![Parte do código da tela Login](./docs/img/code-login.png) | ![Tela de Login](./docs/img/print-tela-login.png) |
-|:---:|:---:|
-![Parte do código da tela Login](./docs/img/code-login.png)
+| ![Parte do código da tela Login](./img/code-login.png) | <img src="./img/print-tela-login.png" width="400" height="400" /> |
+|:---:|:---:| 
+
 [Visualizar todo o código](../src/doeFacil/src/pages/LoginPage.js)
 
 ## Tela Inicial da aplicação - Responsável: Milleny
@@ -43,7 +43,8 @@ OBS: Ainda não fiz o upload porque estou enfrentando muitos bugs. Como estou ap
 - Terminando a unidade 2 do Microfundamento de Desenvolvimento de Aplicações Móveis.
 - Falta algumas implementações, mas está quase pronta.
 
-| ![arte do código da tela Inicial](./docs/img/code-tela-inicial.png) | ![Tela Inicial](./docs/img/print-tela-inicial.png) |
+| ![arte do código da tela Inicial](./img/code-tela-inicial.png) | <img src="./img/print-tela-inicial.png" width="400" height="400" /> |
 |:---:|:---:|
+
 [Visualizar todo o código](../src/doeFacil/src/pages/InicialPage.js)
 
