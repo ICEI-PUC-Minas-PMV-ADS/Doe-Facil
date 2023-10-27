@@ -5,6 +5,7 @@ import HomePage from '../pages/HomePage.js';
 import LoginPage from '../pages/LoginPage.js';
 import DonationPointsPage from '../pages/DonationPointsPage.js';
 import LocalDonorsListPage from '../pages/LocalDonorsListPage.js';
+import DonorDetails from '../pages/DonorDetails.js';
 
 const Stack = createNativeStackNavigator();
 
@@ -29,6 +30,11 @@ const Main = () => {
       <Stack.Screen
         name="LocalDonorsListPage"
         component={LocalDonorsListPage}
+        options={{ header: () => null }}
+      />
+      <Stack.Screen
+        name="DonorDetails"
+        component={DonorDetails}
         options={{ header: () => null }}
       />
     </Stack.Navigator>

@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import { useNavigation } from '@react-navigation/native';
 
-import Header from "../components/Header.js";
 import Title from "../components/Title.js";
 import Subtitle from "../components/Subtitle.js";
 import Container from "../components/Container.js";
@@ -10,15 +10,21 @@ import Container from "../components/Container.js";
 
 const LocalDonorsListPage = ({ route }) => {
     const { localDonors } = route.params;
+    const navigation = useNavigation();
+
+
+    const handleDonorClick = (donor) => {
+        navigation.navigate('DonorDetails', { donor });
+      };
 
     return (
         <Container style={styles.container}>
-            <Header />
+            <Title title="Candidatos a Doação" navigation={navigation} />
                 <View style={styles.titleContainer}>
-                <Title title="Candidatos à Doação de Sangue" />
                     <Subtitle>Selecione para saber mais informações.</Subtitle>
                 </View>
                 {localDonors && localDonors.map(donor => (
+                    <TouchableOpacity key={donor.localDonorId} onPress={() => handleDonorClick(donor)}>
                     <LinearGradient
                         colors={['#DE302F', '#F5F5F5']}
                         start={{ x: 0, y: 0 }}
@@ -32,11 +38,8 @@ const LocalDonorsListPage = ({ route }) => {
                         <Text style={styles.donorName}>{donor.user.firstName} {donor.user.lastName}</Text>
                         <Text style={styles.donorInfo}>Tipo de Sangue: {donor.bloodType}</Text>
                         <Text style={styles.donorInfo}>Hospital: {donor.location.locationName}</Text>
-                        <Text style={styles.donorAddress}>
-                            {donor.address.street}, {donor.address.number}, {donor.address.neighborhood}, {donor.address.city}, {donor.address.state}
-                        </Text>
-                        <Text style={styles.donorMileage}>10km</Text>
                     </LinearGradient>
+                    </TouchableOpacity>
                 ))}
         </Container>
     );
@@ -70,7 +73,6 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: '#D3302F',
     },
-
     donorCard: {
         padding: 30, 
         marginBottom: 40, 
@@ -86,34 +88,29 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#FFFFFF',
     },
-
     donorName: {
         fontSize: 20,
         fontWeight: 'bold',
         marginBottom: 10,
         color: '#FFFFFF',
         textAlign: 'left',
-        fontFamily: 'Roboto',
     },
     donorInfo: {
         fontSize: 16,
         marginBottom: 5,
         color: '#FFFFFF',
         textAlign: 'left',
-        fontFamily: 'Roboto',
     },
     donorAddress: {
         fontSize: 16,
         marginBottom: 10,
         color: '#FFFFFF',
         textAlign: 'left',
-        fontFamily: 'Roboto',
     },
     distance: {
         fontSize: 16,
         color: '#D3302F',
         textAlign: 'left',
-        fontFamily: 'Roboto',
     },
     donorCardIcon: {
         position: 'absolute',
@@ -124,7 +121,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         bottom: 10,
         right: 10,
-    },
+    }
 });
 
 export default LocalDonorsListPage;
