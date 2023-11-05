@@ -4,8 +4,11 @@ import { Avatar, Text, Card  } from 'react-native-paper';
 
 import Header from '../components/Header.js';
 import Container from '../components/Container.js';
+import { useNavigation } from '@react-navigation/native';
 
 const InicialPage = () => {
+    const navigation = useNavigation();
+
     const [visible, setVisible] = React.useState(false);
 
     return (
@@ -30,7 +33,7 @@ const InicialPage = () => {
                         </Card.Content>
                     </Card>
                 </View>
-                <TouchableOpacity style={styles.btn} onPress={() => {}}>
+                <TouchableOpacity style={styles.btn} onPress={() => {navigation.navigate('DonationPointsPage')}}>
                     <Text style={styles.btnTitle}>Pontos de doação</Text>
                 </TouchableOpacity>
             </View>
