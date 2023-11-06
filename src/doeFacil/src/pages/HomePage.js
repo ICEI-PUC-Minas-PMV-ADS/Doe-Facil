@@ -3,11 +3,12 @@ import { StyleSheet } from 'react-native';
 import { BottomNavigation, Text } from 'react-native-paper';
 
 import InicialPage from './InicialPage.js';
+import InfoInicial from './InfoIncial.js';
 
 
 const AlbumsRoute = () => <Text>Albums</Text>;
 
-const RecentsRoute = () => <Text>Recents</Text>;
+const RecentsRoute = () => <InfoInicial></InfoInicial>
 
 const NotificationsRoute = () => <Text>Notifications</Text>;
 
