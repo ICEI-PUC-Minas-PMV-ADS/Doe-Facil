@@ -24,28 +24,52 @@ Acompanhando o aprendizado do Microfundamento de Desenvolvimento de Aplicações
 
 ## Tela Informativo Inicial (InfoInicial) - Responsável: Iane Victória
 
-- Segui as aulas da disciplina de Microfundamento de Desenvolvimento de Aplicações Móveis.
-- Tela pronta.
+- Saliento que foi adicionado "barra de rolagem" nessa tela.
+- Foi utilizado componentes nessa tela, em especifíco, são os cards.
 
-| ![Código de Informativo Inicia](./img/code-InfoInicial.png) | <img src="./img/Tela-InfoInicial.png" width="400" height="400" /> |
+| <img src="./img/code-InfoInicial.png" width="1300" height="400" /> | <img src="./img/Tela-InfoInicial.png" width="400" height="400" /> |
 |:---:|:---:| 
 
 [Visualizar todo o código](../src/doeFacil/src/pages/InfoInicial.js)
 
-- Complementando, aqui podemos visualizar a utilização de componentes. Conforme ensinado pelo professor Kleber.
+- Complementando, aqui podemos visualizar a utilização de componentes. De forma resumida, notei que o código do card poderia ser reutilizado, dessa forma, o fiz.
+- Práticas aplicadas conforme os ensinamentos das aulas do professor Kleber.
 
-![Código da tela Informativo Inicial](./img/code-componente-InfoInicial.png) 
+![Código do Componente: Card](./img/code-componente-InfoInicial.png) 
 
 [Visualizar todo o código](../src/doeFacil/src/components/CardOK.js)
 
 ## Tela Como Doar (InfoComoDoar) - Responsável: Iane Victória
 
+| <img src="./img/code-InfoComoDoar.png" width="1300" height="400" /> | <img src="./img/como-doar.png" width="400" height="400" /> |
+|:---:|:---:| 
+
+[Visualizar todo o código](../src/doeFacil/src/pages/InfoComoDoar.js)
 
 ## Tela Beneficio (InfoBeneficio) - Responsável: Iane Victória
 
+| <img src="./img/code-InfoBeneficio.png" width="1300" height="400" /> | <img src="./img/Tela-InfoBeneficio.png" width="400" height="400" /> |
+|:---:|:---:| 
+
+[Visualizar todo o código](../src/doeFacil/src/pages/InfoBeneficio.js)
+
 ## Tela Onde Doar (InfoOndeDoar) - Responsável: Iane Victória
+
+| <img src="./img/code-InfoOndeDoar.png" width="1300" height="400" /> | <img src="./img/Tela-InfoOndeDoar.png" width="400" height="400" /> |
+|:---:|:---:| 
+
+[Visualizar todo o código](../src/doeFacil/src/pages/InfoOndeDoar.js)
 
 ## Tela Requisitos (InfoRequisitos) - Responsável: Iane Victória
 
+| <img src="./img/code-InfoRequisitos.png" width="1300" height="400" /> | <img src="./img/Tela-InfoRequisitos.png" width="400" height="400" /> |
+|:---:|:---:| 
+
+[Visualizar todo o código](../src/doeFacil/src/pages/InfoRequisitos.js)
+
 ## Tela Preparar-se (InfoPreparar) - Responsável: Iane Victória
 
+| <img src="./img/code-InfoPreparar.png" width="1300" height="400" /> | <img src="./img/Tela-Preparar.png" width="400" height="400" /> |
+|:---:|:---:| 
+
+[Visualizar todo o código](../src/doeFacil/src/pages/InfoPreparar.js)
