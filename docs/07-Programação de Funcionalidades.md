@@ -1,5 +1,7 @@
 # Programação de Funcionalidades
 
+Acompanhando o aprendizado do Microfundamento de Desenvolvimento de Aplicações Móveis, seguimos alguns exemplos conforme as diretrizes e orientações fornecidas pelo professor Kleber Souza. Abaixo, estão as capturas de telas que demonstram o que cada um dos membros ativos do projeto desenvolveu:
+
 ## Tela Login - Responsável: Milleny
 
 - Terminando a unidade 2 do Microfundamento de Desenvolvimento de Aplicações Móveis.
@@ -22,10 +24,22 @@
 
 ## Tela Informativo Inicial (InfoInicial) - Responsável: Iane Victória
 
-| ![Parte do código de Informativo Inicia](https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/83494301/c1c950ea-4e92-4c09-96fa-19b1f38406f3) | <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/83494301/da010b3f-da98-4f07-a2b7-90511820dad7" width="400" height="400" /> |
+- Segui as aulas da disciplina de Microfundamento de Desenvolvimento de Aplicações Móveis.
+- Tela pronta.
+
+| ![Código de Informativo Inicia](./img/code-InfoInicial.png) | <img src="./img/Tela-InfoInicial.png" width="400" height="400" /> |
 |:---:|:---:| 
 
+[Visualizar todo o código](../src/doeFacil/src/pages/InfoInicial.js)
+
+- Complementando, aqui podemos visualizar a utilização de componentes. Conforme ensinado pelo professor Kleber.
+
+![Código da tela Informativo Inicial](./img/code-componente-InfoInicial.png) 
+
+[Visualizar todo o código](../src/doeFacil/src/components/CardOK.js)
+
 ## Tela Como Doar (InfoComoDoar) - Responsável: Iane Victória
+
 
 ## Tela Beneficio (InfoBeneficio) - Responsável: Iane Victória
 
@@ -35,4 +49,3 @@
 
 ## Tela Preparar-se (InfoPreparar) - Responsável: Iane Victória
 
-Acompanhando o aprendizado do Microfundamento de Desenvolvimento de Aplicações Móveis, seguir alguns exemplos conforme as diretrizes e orientações fornecidas pelo professor Kleber Souza. Abaixo, estão as capturas de tela que demonstram o que estou desenvolvendo:
