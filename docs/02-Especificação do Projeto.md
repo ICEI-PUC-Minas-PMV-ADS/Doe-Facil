@@ -83,18 +83,15 @@ O aplicativo de doação de sangue desempenha um papel crucial ao conectar doado
 | RF-003  | O aplicativo deve permitir a exibição de uma lista de locais de doação próximos ao usuário | ALTA       |
 | RF-004  | O aplicativo deve permitir a atribuição de selos com base nas doações e nível de envolvimento dos doadores | MÉDIA      |
 | RF-005  | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | MÉDIA      |
-| RF-006  | O aplicativo deve permitir a disponibilização de um questionário para determinar a elegibilidade do usuário para doação | MÉDIA      |
-| RF-007  | O aplicativo deve permitir o envio de notificações lembrando os usuários das próximas datas de doação | MÉDIA      |
-| RF-008  | O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação | BAIXA      |
-| RF-009  | O aplicativo deve permitir a exibição de curiosidades e informações educativas relacionadas à doação | BAIXA      |
-| RF-010  | O aplicativo deve permitir a implementação de um sistema de rastreamento de doações e receptores | BAIXA      |
+| RF-006  | O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação | BAIXA      |
+| RF-007  | O aplicativo deve permitir a exibição de curiosidades e informações educativas relacionadas à doação | BAIXA      |
 
 
 RF-001 a RF-003 (Alta): Estes requisitos receberam alta prioridade devido à necessidade imediata em cumprir a missão central do aplicativo, que é conectar doadores aos locais de doação.
 
-RF-004 a RF-007 (Média): Estes requisitos, apesar de relevantes para enriquecer a usabilidade e fomentar a prática da doação, foram classificados como de média urgência em relação aos de alta prioridade.
+RF-004 a RF-005 (Média): Estes requisitos, apesar de relevantes para enriquecer a usabilidade e fomentar a prática da doação, foram classificados como de média urgência em relação aos de alta prioridade.
 
-RF-008 a RF-010 (Baixa): Esses requisitos, ainda que contribuam para o enriquecimento da experiência do usuário, têm um grau menor de urgência e podem ser implementados em etapas posteriores do desenvolvimento.
+RF-006 a RF-007 (Baixa): Esses requisitos, ainda que contribuam para o enriquecimento da experiência do usuário, têm um grau menor de urgência e podem ser implementados em etapas posteriores do desenvolvimento.
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                       | Prioridade |
