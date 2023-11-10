@@ -11,9 +11,9 @@ const HomePage = () => {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
         { key: 'inicialPage', focusedIcon: 'home', unfocusedIcon: 'home-outline', getColor: 'rgb(222, 48, 47)' },
-        { key: 'donationPointsPage', focusedIcon: 'map-marker-account', unfocusedIcon: 'map-marker-account-outline' },
         { key: 'recents', focusedIcon: 'file-document', unfocusedIcon: 'file-document-outline' },
         { key: 'accountPage', focusedIcon: 'account', unfocusedIcon: 'account-outline' },
+        { key: 'donationPointsPage', focusedIcon: 'chat', unfocusedIcon: 'chat-outline' },
     ]);
 
     const renderScene = BottomNavigation.SceneMap({
