@@ -7,19 +7,21 @@ import InfoInicial from './InfoIncial.js';
 import DonationPointsPage from './DonationPointsPage.js';
 import AccountPage from './AccountPage.js';
 
+const RecentsRoute = () => <Text>Recents</Text>;
+
 const HomePage = () => {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
         { key: 'inicialPage', focusedIcon: 'home', unfocusedIcon: 'home-outline', getColor: 'rgb(222, 48, 47)' },
-        { key: 'recents', focusedIcon: 'file-document', unfocusedIcon: 'file-document-outline' },
+        { key: 'donationPointsPage', focusedIcon: 'map-marker-account', unfocusedIcon: 'map-marker-account-outline' },
+        { key: '', focusedIcon: 'chat', unfocusedIcon: 'chat-outline' },
         { key: 'accountPage', focusedIcon: 'account', unfocusedIcon: 'account-outline' },
-        { key: 'donationPointsPage', focusedIcon: 'chat', unfocusedIcon: 'chat-outline' },
     ]);
 
     const renderScene = BottomNavigation.SceneMap({
         inicialPage: InicialPage,
         donationPointsPage: DonationPointsPage,
-        recents: InfoInicial,
+        recents: RecentsRoute,
         accountPage: AccountPage,
     });
 

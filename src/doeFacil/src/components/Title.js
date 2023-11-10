@@ -19,6 +19,7 @@ const Title = ({ title, onSearchPress, navigation }) => {
 const styles = StyleSheet.create({
     container: {
         marginBottom: 20,
+        marginTop: 30
     },
     titleContainer: {
         flexDirection: 'row',

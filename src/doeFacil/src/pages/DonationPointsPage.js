@@ -5,7 +5,6 @@ import { useNavigation } from "@react-navigation/native";
 import API from "../services/Api.js";
 
 import Container from "../components/Container.js";
-import Title from "../components/Title.js";
 import CustomDropdown from "../components/CustomDropdown.js";
 import axios from "axios";
 
@@ -83,7 +82,6 @@ function DonationPointsPage() {
 
   return (
     <Container style={styles.container}>
-      <Title title="Locais de Doação" navigation={navigation} />
 
       <View style={styles.instructionContainer}>
         <Text style={styles.instruction}>
@@ -211,7 +209,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#DE302F",
     padding: 10,
     borderRadius: 8,
-    marginTop: 5,
+    marginTop: 60,
   },
   instruction: {
     fontSize: 16,

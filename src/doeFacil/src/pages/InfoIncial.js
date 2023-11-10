@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
+  Image
 } from "react-native";
 import CardOK from "../components/CardOK";
 import { useNavigation } from "@react-navigation/native";
@@ -18,6 +19,7 @@ import Container from "../components/Container";
 import Body from "../components/Body";
 
 const InfoInicial = () => {
+
   const styles = StyleSheet.create({
     tela: {
       width: "90%",
@@ -28,7 +30,7 @@ const InfoInicial = () => {
     },
     container: {
       width: "100%",
-      marginTop: 60,
+      marginTop: 10,
       marginBottom: 20,
       marginLeft: 20,
     },
@@ -40,12 +42,28 @@ const InfoInicial = () => {
       color: "#786C6C",
       fontSize: 14,
     },
+    cardImg: {
+      height: 25,
+      width: 25,
+      marginLeft: 10,
+      marginTop: 50
+    },
   });
 
   const navigation = useNavigation();
 
   return (
     <Container>
+      <TouchableOpacity
+          onPress={() => {
+            navigation.navigate("HomePage");
+          }}
+        >
+          <Image
+            style={styles.cardImg}
+            source={require("../../assets/seta.png")}
+          />
+        </TouchableOpacity>
       <ScrollView style={{ height: 600 }}>
         <View style={styles.tela}>
           <View style={styles.container}>

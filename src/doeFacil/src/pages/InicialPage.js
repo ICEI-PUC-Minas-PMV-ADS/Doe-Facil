@@ -33,8 +33,8 @@ const InicialPage = () => {
                         </Card.Content>
                     </Card>
                 </View>
-                <TouchableOpacity style={styles.btn} onPress={() => {navigation.navigate('DonationPointsPage')}}>
-                    <Text style={styles.btnTitle}>Pontos de doação</Text>
+                <TouchableOpacity style={styles.btn} onPress={() => {navigation.navigate('InfoInicial')}}>
+                    <Text style={styles.btnTitle}>Informativo</Text>
                 </TouchableOpacity>
             </View>
             <View style={styles.sectionTotal}>
