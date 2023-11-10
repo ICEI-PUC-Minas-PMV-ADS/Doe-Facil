@@ -5,34 +5,34 @@ const CardOK = ({ title, subtitle, img }) => {
 
     const styles = {
         container: {
+            width: '100%',
+            paddingVertical: 30,
+            paddingHorizontal: 20,
+            marginBottom: 20,
+            backgroundColor: 'rgb(222, 48, 47)',
+            borderRadius: 30
+        },
+        conteudo: {
             flexDirection: 'row',
             justifyContent: 'space-between',
-            width: '90%',
-            alignSelf: 'center',
-            height: 130,
-            marginBottom: 25,
-            alignItems: 'center',
-            paddingLeft : '36px',
-            paddingRight : '36px',
-            flexShrink: 0,
-            borderRadius: 41,
-            background: 'linear-gradient(92deg, #DE302F 32.17%, #FF8281 91.09%)',
+            width: '100%'
+        },
+        text: {
+            width: '80%'
         },
         title: {
-            fontSize: 24,
+            fontSize: 20,
             fontWeight: 'bold',
             color:'#FFF',
         },
         subtitle: {
-            fontSize: 16,
+            fontSize: 13,
             color:'#FCCBCB',
             fontWeight:500,
-            width:'250px',
         },
-
         cardImg: {
-            width: 65,
-            height: 65
+            width: 60,
+            height: 60,
         },
     };
 
@@ -42,11 +42,13 @@ const CardOK = ({ title, subtitle, img }) => {
 
         <>
             <View style={styles.container}>
-                <View>
-                    <Text style={styles.title}>{title}</Text>
-                    <Text style={styles.subtitle}>{subtitle}</Text>
+                <View style={styles.conteudo}>
+                    <View style={styles.text}>
+                        <Text style={styles.title}>{title}</Text>
+                        <Text style={styles.subtitle}>{subtitle}</Text>
+                    </View>
+                    <Image style={styles.cardImg} source={img} />
                 </View>
-                <Image style={styles.cardImg} source={img} />
             </View>
         </>
     )

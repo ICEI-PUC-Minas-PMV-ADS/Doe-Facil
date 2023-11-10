@@ -37,9 +37,6 @@ const InicialPage = () => {
                     <Text style={styles.btnTitle}>Pontos de doação</Text>
                 </TouchableOpacity>
             </View>
-            <View style={styles.dep}>
-                <Text style={styles.depTitle}>Depoimentos</Text>
-            </View>
             <View style={styles.sectionTotal}>
                 <Text style={styles.depTitleTotal}>Total de doações pelo app</Text>
                 <View style={{alignItems: 'center'}}>

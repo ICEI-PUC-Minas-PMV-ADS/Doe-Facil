@@ -4,28 +4,23 @@ import { BottomNavigation, Text } from 'react-native-paper';
 
 import InicialPage from './InicialPage.js';
 import InfoInicial from './InfoIncial.js';
-
-
-const AlbumsRoute = () => <Text>Albums</Text>;
-
-const RecentsRoute = () => <InfoInicial></InfoInicial>
-
-const NotificationsRoute = () => <Text>Notifications</Text>;
+import DonationPointsPage from './DonationPointsPage.js';
+import AccountPage from './AccountPage.js';
 
 const HomePage = () => {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
         { key: 'inicialPage', focusedIcon: 'home', unfocusedIcon: 'home-outline', getColor: 'rgb(222, 48, 47)' },
-        { key: 'albums', focusedIcon: 'account', unfocusedIcon: 'account-outline' },
+        { key: 'donationPointsPage', focusedIcon: 'map-marker-account', unfocusedIcon: 'map-marker-account-outline' },
         { key: 'recents', focusedIcon: 'file-document', unfocusedIcon: 'file-document-outline' },
-        { key: 'notifications', focusedIcon: 'bell', unfocusedIcon: 'bell-outline' },
+        { key: 'accountPage', focusedIcon: 'account', unfocusedIcon: 'account-outline' },
     ]);
 
     const renderScene = BottomNavigation.SceneMap({
         inicialPage: InicialPage,
-        albums: AlbumsRoute,
-        recents: RecentsRoute,
-        notifications: NotificationsRoute,
+        donationPointsPage: DonationPointsPage,
+        recents: InfoInicial,
+        accountPage: AccountPage,
     });
 
     return (

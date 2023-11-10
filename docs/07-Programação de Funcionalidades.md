@@ -1,75 +1,94 @@
 # Programação de Funcionalidades
 
-Acompanhando o aprendizado do Microfundamento de Desenvolvimento de Aplicações Móveis, seguimos alguns exemplos conforme as diretrizes e orientações fornecidas pelo professor Kleber Souza. Abaixo, estão as capturas de telas que demonstram o que cada um dos membros ativos do projeto desenvolveu:
+Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-## Tela Login - Responsável: Milleny
+## Funcionalidade 01: Realizar Cadastro (RF-001)
 
-- Terminando a unidade 2 do Microfundamento de Desenvolvimento de Aplicações Móveis.
-- Tela quase pronta, faltando a persistência de dados.
+Essa funcionalidade permite que o usuário realize o cadastro e acesse o aplicativo Doe Fácil.
 
-| ![Parte do código da tela Login](./img/code-login.png) | <img src="./img/print-tela-login.png" width="400" height="400" /> |
-|:---:|:---:| 
+| ID | Descrição do Requisito | Artefato(s) |
+| RF-001 | O aplicativo deve permitir que o usuário realize o cadastro | - |
 
-[Visualizar todo o código](../src/doeFacil/src/pages/LoginPage.js)
+`Responsável`: Gabriel
 
-## Tela Inicial da aplicação - Responsável: Milleny
+__Instruções de Acesso__
+1. Acesse o aplicativo [Doe fácil]()
+2. Clique em "Ainda não tem conta? Clique aqui"
+3. Forneça seus dados para o cadastro
+4. Clique em "Cadastrar"
 
-- Terminando a unidade 2 do Microfundamento de Desenvolvimento de Aplicações Móveis.
-- Falta algumas implementações, mas está quase pronta.
+[Image]()
 
-| ![arte do código da tela Inicial](./img/code-tela-inicial.png) | <img src="./img/print-tela-inicial.png" width="400" height="400" /> |
-|:---:|:---:|
+## Funcionalidade 02: Efetuar Login (RF-002)
 
-[Visualizar todo o código](../src/doeFacil/src/pages/InicialPage.js)
+Essa funcionalidade permite que o usuário já cadastrado acesse o aplicativo Doe Fácil, fornecendo sua credenciais de acesso, como o e-mail e senha.
 
-## Tela Informativo Inicial (InfoInicial) - Responsável: Iane Victória
+| ID | Descrição do Requisito | Artefato(s) |
+| RF-002 | O aplicativo deve permitir que os usuários efetuem o processo de login | [LoginPage.js](../src/doeFacil/src/pages/LoginPage.js) / [Input.js](../src/doeFacil/src/components/Input.js) |
 
-- Saliento que foi adicionado "barra de rolagem" nessa tela.
-- Foi utilizado componentes nessa tela, em especifíco, são os cards.
+`Responsável`: Milleny
 
-| <img src="./img/code-InfoInicial.png" width="1300" height="400" /> | <img src="./img/Tela-InfoInicial.png" width="400" height="400" /> |
-|:---:|:---:| 
+__Instruções de Acesso__
+1. Acesse o aplicativo [Doe fácil]()
+2. Forneça suas credenciais de acesso
+3. Clique no botão "Login"
 
-[Visualizar todo o código](../src/doeFacil/src/pages/InfoInicial.js)
+[Image]()
 
-- Complementando, aqui podemos visualizar a utilização de componentes. De forma resumida, notei que o código do card poderia ser reutilizado, dessa forma, o fiz.
-- Práticas aplicadas conforme os ensinamentos das aulas do professor Kleber.
+## Funcionalidade 03: Pessoas que precisam de doação (RF-005)
 
-![Código do Componente: Card](./img/code-componente-InfoInicial.png) 
+Essa funcionalidade permite que o usuário logado pesquise por pessoas que precisam de doações e tenha acesso à algumas informações para poder ajudar.
 
-[Visualizar todo o código](../src/doeFacil/src/components/CardOK.js)
+| ID | Descrição do Requisito | Artefato(s) |
+| RF-005 | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) / [DonorDetails.js](../src/doeFacil/src/pages/DonorDetails.js) / [LocalDonorsListPage.js](../src/doeFacil/src/pages/LocalDonorsListPage.js) |
 
-## Tela Como Doar (InfoComoDoar) - Responsável: Iane Victória
+`Responsável`: Joice
 
-| <img src="./img/code-InfoComoDoar.png" width="1300" height="400" /> | <img src="./img/como-doar.png" width="400" height="400" /> |
-|:---:|:---:| 
+__Instruções de Acesso__
+1. Acesse o aplicativo [Doe fácil]()
+2. Forneça suas credenciais de acesso
+3. Clique no botão "Login"
+4. Na página inicial, clique em "Pontos de doação"
+5. Selecione o "Tipo de Busca" como "Pessoas que precisam de doação".
+6. Selecione o Estado e a Cidade
+7. Clique em "Buscar"
 
-[Visualizar todo o código](../src/doeFacil/src/pages/InfoComoDoar.js)
+[Image]()
 
-## Tela Beneficio (InfoBeneficio) - Responsável: Iane Victória
+## Funcionalidade 04: Informações sobre o procedimento de doação de sangue (RF-006)
 
-| <img src="./img/code-InfoBeneficio.png" width="1300" height="400" /> | <img src="./img/Tela-InfoBeneficio.png" width="400" height="400" /> |
-|:---:|:---:| 
+Essa funcionalidade permite que o usuário logado encontre informações sobre o procedimento de doação de sangue.
 
-[Visualizar todo o código](../src/doeFacil/src/pages/InfoBeneficio.js)
+| ID | Descrição do Requisito | Artefato(s) |
+| RF-003 | O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação | [HomePage.js](../src/doeFacil/src/pages/HomePage.js) / [InfoBeneficio.js](../src/doeFacil/src/pages/InfoBeneficio.js) / [InfoComoDoar.js](../src/doeFacil/src/pages/InfoComoDoar.js) / [InfoOndeDoar.js](../src/doeFacil/src/pages/InfoOndeDoar.js) / [InfoPreparar.js](../src/doeFacil/src/pages/InfoPreparar.js) / [InfoRequisitos.js](../src/doeFacil/src/pages/InfoRequisitos.js) |
 
-## Tela Onde Doar (InfoOndeDoar) - Responsável: Iane Victória
+`Responsável`: Iane
 
-| <img src="./img/code-InfoOndeDoar.png" width="1300" height="400" /> | <img src="./img/Tela-InfoOndeDoar.png" width="400" height="400" /> |
-|:---:|:---:| 
+__Instruções de Acesso__
+1. Acesse o aplicativo [Doe fácil]()
+2. Forneça suas credenciais de acesso
+3. Clique no botão "Login"
+4. Na página inicial, clique no ícone corresponte a página informativo (terceiro ícone, da esquerda para a direita)
+5. Clique em algum card para saber mais
 
-[Visualizar todo o código](../src/doeFacil/src/pages/InfoOndeDoar.js)
+[Image]()
 
-## Tela Requisitos (InfoRequisitos) - Responsável: Iane Victória
+## Funcionalidade 05: Pessoas que precisam de doação (RF-003)
 
-| <img src="./img/code-InfoRequisitos.png" width="1300" height="400" /> | <img src="./img/Tela-InfoRequisitos.png" width="400" height="400" /> |
-|:---:|:---:| 
+Essa funcionalidade permite que o usuário logado pesquise por locais de doação próximos à ele.
 
-[Visualizar todo o código](../src/doeFacil/src/pages/InfoRequisitos.js)
+| ID | Descrição do Requisito | Artefato(s) |
+| RF-003 | O aplicativo deve permitir a exibição de uma lista de locais de doação próximos ao usuário | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) |
 
-## Tela Preparar-se (InfoPreparar) - Responsável: Iane Victória
+`Responsável`: Joice
 
-| <img src="./img/code-InfoPreparar.png" width="1300" height="400" /> | <img src="./img/Tela-Preparar.png" width="400" height="400" /> |
-|:---:|:---:| 
+__Instruções de Acesso__
+1. Acesse o aplicativo [Doe fácil]()
+2. Forneça suas credenciais de acesso
+3. Clique no botão "Login"
+4. Na página inicial, clique em "Pontos de doação"
+5. Selecione o "Tipo de Busca" como "Locais para doar sangue".
+6. Selecione o Estado e a Cidade
+7. Clique em "Buscar"
 
-[Visualizar todo o código](../src/doeFacil/src/pages/InfoPreparar.js)
+[Image]()

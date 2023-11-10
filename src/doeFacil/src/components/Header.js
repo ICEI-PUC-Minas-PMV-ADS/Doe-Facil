@@ -13,7 +13,6 @@ const Header = () => {
                     }}
                 />} 
             style={styles.title} />
-            <Appbar.Action icon="dots-vertical" onPress={() => {}} color='white' />
         </Appbar.Header>
     );
 };

@@ -1,65 +1,119 @@
-import * as React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView} from 'react-native';
-import CardOK from '../components/CardOK';
-import { useNavigation } from '@react-navigation/native';
-import comoDoar from '../../assets/comoDoar.png';
-import ondeDoar from '../../assets/ondeDoar.png'; 
-import beneficio from '../../assets/beneficio.png'; 
-import preparar from '../../assets/preparar.png';
-import requisitos from '../../assets/requisitos.png';
+import * as React from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ScrollView,
+} from "react-native";
+import CardOK from "../components/CardOK";
+import { useNavigation } from "@react-navigation/native";
+import comoDoar from "../../assets/comoDoar.png";
+import ondeDoar from "../../assets/ondeDoar.png";
+import beneficio from "../../assets/beneficio.png";
+import preparar from "../../assets/preparar.png";
+import requisitos from "../../assets/requisitos.png";
+
+import Container from "../components/Container";
+import Body from "../components/Body";
 
 const InfoInicial = () => {
+  const styles = StyleSheet.create({
+    tela: {
+      width: "90%",
+      alignItems: "center",
+      justifyContent: "center",
+      flex: 1,
+      margin: 10,
+    },
+    container: {
+      width: "100%",
+      marginTop: 60,
+      marginBottom: 20,
+      marginLeft: 20,
+    },
+    title: {
+      color: "#DE302F",
+      fontSize: 23,
+    },
+    subtitle: {
+      color: "#786C6C",
+      fontSize: 14,
+    },
+  });
 
-    const styles = StyleSheet.create({
-        container: {
-            marginTop:'20px',
-            backgroundColor: 'branco',
-            width: '90%',
-            alignSelf: 'center',
-              
-        },
-        title:{
-           color:'#DE302F',
-           marginBottom:'-20px',
-        },
-        subtitle:{
-            color: '#786C6C',
+  const navigation = useNavigation();
 
-        }
-    });
+  return (
+    <Container>
+      <ScrollView style={{ height: 600 }}>
+        <View style={styles.tela}>
+          <View style={styles.container}>
+            <Text style={styles.title}>Informativo</Text>
+            <Text style={styles.subtitle}>Tira suas duvidas abaixo!</Text>
+          </View>
 
-    const navigation = useNavigation();
-
-    return (
-        <>
-<ScrollView style={{height: 600}}>
-
-            <View style={styles.container}>
-
-                <h2 style={styles.title} >Informativo</h2>
-                <h4 style={styles.subtitle}>Tira suas duvidas abaixo!</h4>
-
-            </View>
-            <TouchableOpacity onPress={() => { navigation.navigate('InfoComoDoar') }}>
-                <CardOK title='Como Doar' subtitle='É simples, rápido e seguro.' img={comoDoar}/>
+          <Body>
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("InfoComoDoar");
+              }}
+            >
+              <CardOK
+                title="Como Doar"
+                subtitle="É simples, rápido e seguro."
+                img={comoDoar}
+              />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { navigation.navigate('InfoBeneficio') }}>
-                <CardOK title='Benefícios' subtitle='Também há benefícios para o doador.'img={beneficio} />
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("InfoBeneficio");
+              }}
+            >
+              <CardOK
+                title="Benefícios"
+                subtitle="Também há benefícios para o doador."
+                img={beneficio}
+              />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { navigation.navigate('InfoRequisitos') }}>
-                <CardOK title='Requisitos' subtitle='É importante para garantir segurança no processo.'img={requisitos} />
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("InfoRequisitos");
+              }}
+            >
+              <CardOK
+                title="Requisitos"
+                subtitle="É importante para garantir segurança no processo."
+                img={requisitos}
+              />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { navigation.navigate('InfoOndeDoar') }}>
-                <CardOK title='Onde doar' subtitle='Pode ser feita em hemocentros e entre outros.' img={ondeDoar}/>
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("InfoOndeDoar");
+              }}
+            >
+              <CardOK
+                title="Onde doar"
+                subtitle="Pode ser feita em hemocentros e entre outros."
+                img={ondeDoar}
+              />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { navigation.navigate('InfoPreparar') }}>
-                <CardOK title='Como preparar-se' subtitle='É importante seguir algumas orientações.' img={preparar}/>
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate("InfoPreparar");
+              }}
+            >
+              <CardOK
+                title="Como preparar-se"
+                subtitle="É importante seguir algumas orientações."
+                img={preparar}
+              />
             </TouchableOpacity>
-</ScrollView>
-
-        </>
-    );
-
-}
+          </Body>
+        </View>
+      </ScrollView>
+    </Container>
+  );
+};
 
 export default InfoInicial;
