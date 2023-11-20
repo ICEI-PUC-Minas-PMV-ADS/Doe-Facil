@@ -37,7 +37,7 @@ __Instruções de Acesso__
 2. Forneça suas credenciais de acesso
 3. Clique no botão "Login"
 
-<img src="./img/informativo.png" width="400" height="400" />
+<img src="./img/PageLogin.png" width="280" height="500" />
 
 ## Funcionalidade 03: Pessoas que precisam de doação (RF-005)
 
@@ -60,7 +60,7 @@ __Instruções de Acesso__
 6. Selecione o Estado e a Cidade
 7. Clique em "Buscar"
 
-| <img src="./img/PagePessoasHome.png" width="400" height="400" /> | <img src="./img/PagePessoasLista.png" width="400" height="400" /> | <img src="./img/PagePessoasDetalhes.png" width="400" height="400" /> |
+| <img src="./img/PagePessoasHome.png" width="280" height="500" /> | <img src="./img/PagePessoasLista.png" width="280" height="500" /> | <img src="./img/PagePessoasDetalhes.png" width="280" height="500" /> |
 |:---:|:---:|:---:|
 
 
@@ -82,8 +82,10 @@ __Instruções de Acesso__
 4. Na página inicial, clique em "Informativo"
 5. Clique em algum card para saber mais
 
-| <img src="./img/PageInfoHome.png" width="400" height="400" /> | <img src="./img/PageInfoComo.png" width="400" height="400" /> | <img src="./img/PageInfoBeneficios.png" width="400" height="400" /> | <img src="./img/PageInfoRequisitos.png" width="400" height="400" /> | <img src="./img/PageInfoOnde.png" width="400" height="400" /> | <img src="./img/PageInfoPreparar.png" width="400" height="400" /> |
-|:---:|:---:|:---:|:---:|:---:|:---:| 
+| <img src="./img/PageInfoHome.png" width="280" height="500" /> | <img src="./img/PageInfoComo.png" width="280" height="500" /> | <img src="./img/PageInfoBeneficios.png" width="280" height="500" /> |
+|:---:|:---:|:---:|
+|<img src="./img/PageInfoRequisitos.png" width="280" height="500" /> | <img src="./img/PageInfoOnde.png" width="280" height="500" /> | <img src="./img/PageInfoPreparar.png" width="280" height="500" /> |
+|:---:|:---:|:---:| 
 
 
 ## Funcionalidade 05: Acessar locais de doação de sangue (RF-003)
