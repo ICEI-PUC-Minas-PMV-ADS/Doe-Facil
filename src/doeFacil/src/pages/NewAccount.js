@@ -7,13 +7,16 @@ import Input from '../components/Input.js';
 
 import { useNavigation } from '@react-navigation/native';
 
-const LoginPage = () => {
+const NewAccount = () => {
     const navigation = useNavigation();
     return (
         <Container>
             <View style={styles.container}>
                 <Logo/>
-                <Text style={styles.title}>Login</Text>
+                <Text style={styles.title}>Nova Conta</Text>
+                <Input 
+                    label='Nome'
+                />
                 <Input 
                     label='E-mail'
                 />
@@ -22,16 +25,10 @@ const LoginPage = () => {
                     secureTextEntry
                     right={<TextInput.Icon icon="eye" />}
                 />
-                <TouchableOpacity onPress={() => {}}>
-                    <Text>Esqueci minha senha</Text>
-                </TouchableOpacity>
                 <TouchableOpacity style={styles.btn} onPress={() => {navigation.navigate('HomePage')}}>
                     <Text style={styles.btnTitle}>Entrar</Text>
                 </TouchableOpacity>
             </View>
-            <TouchableOpacity style={styles.btnNew} onPress={() => {navigation.navigate('NewAccount')}}>
-                <Text style={styles.color}>Ainda não tem conta?</Text><Text style={styles.bold}>Clique aqui</Text>
-            </TouchableOpacity>
         </Container>
     );
 };
@@ -81,4 +78,4 @@ const styles = StyleSheet.create({
     },
 });  
 
-export default LoginPage;
+export default NewAccount;
