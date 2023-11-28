@@ -4,10 +4,14 @@ import { Avatar, Text, Card  } from 'react-native-paper';
 
 import Header from '../components/Header.js';
 import Container from '../components/Container.js';
+
+import {useUser} from '../contexts/UserContext';
+
 import { useNavigation } from '@react-navigation/native';
 
-const InicialPage = () => {
+const InicialPage = () => { 
     const navigation = useNavigation();
+    const { name, lastName } = useUser();
 
     const [visible, setVisible] = React.useState(false);
 
@@ -17,7 +21,7 @@ const InicialPage = () => {
             <View style={styles.align}>
                 <View style={styles.topPage}>
                     <Avatar.Image size={120} source={require('../../assets/avatar.png')} />
-                    <Text style={styles.titleName}>Maria dos Santos</Text>
+                    <Text style={styles.titleName}>{name} {lastName}</Text>
                 </View>
                 <View style={styles.cards}>
                     <Card style={styles.card} >

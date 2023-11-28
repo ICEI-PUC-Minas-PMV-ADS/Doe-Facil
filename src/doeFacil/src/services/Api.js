@@ -1,6 +1,6 @@
 
 
-const FAKE_API = {
+const FAKE_API = { 
   users: [
     { id: 1, firstName: 'John', lastName: 'Smith', cpf: '12345678909', email: 'john@example.com', phone: '11987654321', password: 'password123' },
     { id: 2, firstName: 'Mary', lastName: 'Johnson', cpf: '98765432100', email: 'mary@example.com', phone: '11912345678', password: 'password456' },
@@ -97,6 +97,12 @@ export default  {
     const id = FAKE_API.users.length + 1;
     FAKE_API.users.push({ id, firstName, lastName, cpf, email, phone, password });
     return { id, token: 'fake_token' };
+  },
+  getUser: async (id) => {
+    const user = FAKE_API.users.find(u => id === id);
+    if (user) {
+      return { firstName, lastName, cpf, phone};
+    }
   },
   getLocations: async () => {
   
