@@ -2,6 +2,8 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import HomePage from '../pages/HomePage.js';
+import LoginPage from '../pages/LoginPage.js';
+import NewAccount from '../pages/NewAccount.js';
 import DonationPointsPage from '../pages/DonationPointsPage.js';
 import LocalDonorsListPage from '../pages/LocalDonorsListPage.js';
 import DonorDetails from '../pages/DonorDetails.js';
@@ -20,6 +22,16 @@ const Main = () => {
       <Stack.Screen
         name="HomePage"
         component={HomePage}
+        options={{ header: () => null }}
+      />
+      <Stack.Screen
+        name="LoginPage"
+        component={LoginPage}
+        options={{ header: () => null }}
+      />
+      <Stack.Screen
+        name="NewAccount"
+        component={NewAccount}
         options={{ header: () => null }}
       />
       <Stack.Screen
