@@ -1,14 +1,44 @@
-import React from 'react';
-import { StyleSheet, TouchableOpacity, View, Text } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, TouchableOpacity, View, Text, Alert } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import Container from '../components/Container.js';
 import Logo from '../components/Logo.js';
 import Input from '../components/Input.js';
 
+import {useUser} from '../contexts/UserContext';
+import { register } from '../services/auth.services.js';
+
 import { useNavigation } from '@react-navigation/native';
 
 const NewAccount = () => {
     const navigation = useNavigation();
+
+    const {setSigned} = useUser();
+    
+    const [name, setName] = useState();
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
+
+    
+
+    const handleRegister = () => {
+        register({
+            name: name,
+            email: email,
+            password: password
+        }).then( res => {
+            console.log(res)
+    
+            if(res) {
+                Alert.alert("Bem vindo(a)!", "Seu cadastro foi realizado com sucesso!", [
+                    { text: "OK", onPress: () => setSigned(true) }
+                ])
+            } else {
+                Alert.alert("Atenção!", "Algo deu errado... Tente mais tarde!")
+            }
+        });
+    }    
+
     return (
         <Container>
             <View style={styles.container}>
@@ -16,19 +46,28 @@ const NewAccount = () => {
                 <Text style={styles.title}>Nova Conta</Text>
                 <Input 
                     label='Nome'
+                    value={name}
+                    onChangeText={(text) => setName(text)}
                 />
                 <Input 
                     label='E-mail'
+                    value={email}
+                    onChangeText={(text) => setEmail(text)}
                 />
                 <Input 
                     label='Senha'
+                    value={password}
                     secureTextEntry
+                    onChangeText={(text) => setPassword(text)}
                     right={<TextInput.Icon icon="eye" />}
                 />
-                <TouchableOpacity style={styles.btn} onPress={() => {navigation.navigate('HomePage')}}>
+                <TouchableOpacity style={styles.btn} onPress={handleRegister}>
                     <Text style={styles.btnTitle}>Entrar</Text>
                 </TouchableOpacity>
             </View>
+            <TouchableOpacity style={styles.btnNew} onPress={() => {navigation.navigate('LoginPage')}}>
+                <Text style={styles.color}>Já possui uma conta?</Text><Text style={styles.bold}>Clique aqui</Text>
+            </TouchableOpacity>
         </Container>
     );
 };

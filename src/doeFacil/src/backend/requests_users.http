@@ -1,0 +1,24 @@
+### USERS
+GET http://localhost:3000/users
+
+### REGISTER
+POST http://localhost:3000/register HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Teste", 
+    "lastName": "Teste", 
+    "cpf": "11111111111", 
+    "email": "teste@example.com", 
+    "phone": "11111111111", 
+    "password": "password111"
+}
+
+### LOGIN
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "email": "teste@example.com",
+     "password": "password111"
+}

@@ -4,10 +4,10 @@ export const UserContext = createContext();
 
 export default function UserProvider({ children }) {
   const [signed, setSigned] = useState(false);
-  const [name, setName] = useState('Mary');
-  const [lastName, setLastName] = useState('Johnson');
-  const [cpf, setCpf] = useState('98765432100');
-  const [phone, setPhone] = useState('11912345678');
+  const [name, setName] = useState();
+  const [lastName, setLastName] = useState();
+  const [cpf, setCpf] = useState();
+  const [phone, setPhone] = useState();
 
   return (
     <UserContext.Provider

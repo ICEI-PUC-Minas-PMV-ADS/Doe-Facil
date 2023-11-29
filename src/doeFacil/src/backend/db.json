@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "firstName": "Mary",
+      "lastName": "Johnson",
+      "cpf": "98765432100",
+      "email": "mary@example.com",
+      "phone": "11912345678",
+      "password": "password456"
+    },
+    {
+      "email": "mary2@example.com",
+      "password": "$2a$10$zjIXaFBn4CTumljP4Djn1eSg5uYAQ9XYGr6CB9q6zGdG4FcbFlqVm",
+      "name": "Mary",
+      "id": 3
+    },
+    {
+      "email": "mary3@example.com",
+      "password": "$2a$10$mRmdm2PxduHUNLCMZdLjPuSr8pe8X38UzPrtxFcniO4Tsd8rrc2Na",
+      "name": "Mary",
+      "id": 4
+    },
+    {
+      "email": "mary4@example.com",
+      "password": "$2a$10$/XoxDgLVAqzMPEkPEN.pS.8MrCOZiD6t96I5Y13EBxwRH5kttH9Yi",
+      "name": "Mary",
+      "id": 5
+    },
+    {
+      "email": "mary6@example.com",
+      "password": "$2a$10$4mD44khVzY/OqCHQXEJ4fuDZKkyGk9mtzkoQ2tNiZrhxbmweT1fsq",
+      "name": "Mary",
+      "id": 6
+    },
+    {
+      "email": "teste@example.com",
+      "password": "$2a$10$YwkCqzy9X26MQumf398/Z.PFE0ASJADDV6asyeYtGyCyBykhrUjae",
+      "name": "Teste",
+      "id": 7
+    },
+    {
+      "email": "mary10@example.com",
+      "password": "$2a$10$3zPm9XxkB4QmjOYDnQPgmODETuq7zzE/OaiRpMaOhpOXh3B6HQFt2",
+      "name": "Mary",
+      "id": 8
+    },
+    {
+      "email": "mary13@example.com",
+      "password": "$2a$10$6ExQw28CZfe5TFJzttkmtOmYINUbra6uDHhbEJl5c0.a.YTTbZqmy",
+      "name": "Mary",
+      "id": 9
+    }
+  ]
+}

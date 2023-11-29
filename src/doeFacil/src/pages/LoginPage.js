@@ -1,35 +1,36 @@
 import React, { useState } from 'react';
-import { StyleSheet, TouchableOpacity, View, Text } from 'react-native';
+import { StyleSheet, TouchableOpacity, View, Text, Alert } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import Container from '../components/Container.js';
 import Logo from '../components/Logo.js';
 import Input from '../components/Input.js';
 
 import {useUser} from '../contexts/UserContext';
-import API from "../services/Api.js";
+import { login } from '../services/auth.services.js';
 
 import { useNavigation } from '@react-navigation/native';
 
 const LoginPage = () => {
     const navigation = useNavigation();
     const {setSigned, setName } = useUser();
-    const [email, setEmail] = useState('mary@example.com');
-    const [password, setPassword] = useState('password456');
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
 
     const handleLogin = () => {
+        login({
+            email: email,
+            password: password
+        }).then( res => {
+            console.log(res)
 
-        API.signIn({
-          email: email,
-          password: password
-        })
-        
-        if (API.signIn) {
-            setSigned(true)
-        }
-        else {
-            console.log('Usuário ou senha inválidos!');
-        }
-      }
+            if(res) {
+                setSigned(true);
+                setName(res.user.name)
+            } else {
+                Alert.alert("Atenção!", "Algo deu errado... Usuário e/ou senha inválido(s)!")
+            }
+        });
+    }
 
     return (
         <Container>
