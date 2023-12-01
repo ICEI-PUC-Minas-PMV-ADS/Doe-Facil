@@ -3,8 +3,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import HomePage from '../pages/HomePage.js';
 import DonationPointsPage from '../pages/DonationPointsPage.js';
+import DonationPointsListPage from '../pages/DonationPointsListPage.js'
 import LocalDonorsListPage from '../pages/LocalDonorsListPage.js';
 import DonorDetails from '../pages/DonorDetails.js';
+import PointsDetails from '../pages/PointsDetails.js';
 import InfoInicial from '../pages/InfoIncial.js';
 import InfoBeneficio from '../pages/InfoBeneficio.js';
 import InfoComoDoar from '../pages/InfoComoDoar.js';
@@ -33,8 +35,18 @@ const Main = () => {
         options={{ header: () => null }}
       />
       <Stack.Screen
+        name="DonationPointsListPage"
+        component={DonationPointsListPage}
+        options={{ header: () => null }}
+      />
+      <Stack.Screen
         name="DonorDetails"
         component={DonorDetails}
+        options={{ header: () => null }}
+      /> 
+      <Stack.Screen
+        name="PointsDetails"
+        component={PointsDetails}
         options={{ header: () => null }}
       />
       <Stack.Screen

@@ -24,12 +24,12 @@ function DonationPointsPage() {
 
   const handleSearchData = async () => {
     if (selectedValue === "locals") {
-      const locationS = await API.getLocations();
-      // navigation.navigate('DonationPointsListPage', { locationS });
+      const localDonors = await API.getLocalDonors();
+      navigation.navigate('DonationPointsListPage', { localDonors });
     } else {
       const localDonors = await API.getLocalDonors();
       navigation.navigate("LocalDonorsListPage", { localDonors });
-    }
+    } 
   };
 
   const handleCancel = () => {

@@ -3,7 +3,7 @@ import React, { createContext, useState, useContext } from 'react';
 export const UserContext = createContext();
 
 export default function UserProvider({ children }) {
-  const [signed, setSigned] = useState(false);
+  const [signed, setSigned] = useState(true);
   const [name, setName] = useState();
   const [lastName, setLastName] = useState();
   const [cpf, setCpf] = useState();

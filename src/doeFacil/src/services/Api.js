@@ -7,7 +7,7 @@ const FAKE_API = {
     { id: 3, firstName: 'Anna', lastName: 'Martins', cpf: '11122233344', email: 'anna@example.com', phone: '11911223344', password: 'password789' },
     { id: 4, firstName: 'Peter', lastName: 'Rocha', cpf: '55566677788', email: 'peter@example.com', phone: '11944556677', password: 'password101' },
     { id: 5, firstName: 'Lucas', lastName: 'Morais', cpf: '99988877766', email: 'lucas@example.com', phone: '11999887766', password: 'password202' }
-  ],
+  ], 
   locations: [
     { locationId: 1, locationName: 'Hospital A', locationAddressId: 1, latitude: -23.5629, longitude: -46.6544 },
     { locationId: 2, locationName: 'Hospital B', locationAddressId: 2, latitude: -23.5630, longitude: -46.6545 },
@@ -105,8 +105,15 @@ export default  {
     }
   },
   getLocations: async () => {
-  
-    return FAKE_API.locations;
+    return FAKE_API.localDonors.map(donor => {
+      const location = FAKE_API.locations.find(l => l.locationId === donor.locationId);
+      const address = FAKE_API.address.find(a => a.locationId === donor.locationId);
+      return {
+        ...donor,
+        location,
+        address,
+      };
+    });
   },
   getLocationById: async (locationId) => {
     return FAKE_API.locations.find(loc => loc.locationId === locationId);

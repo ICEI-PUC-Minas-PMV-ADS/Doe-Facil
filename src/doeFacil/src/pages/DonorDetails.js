@@ -5,7 +5,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import Title from "../components/Title.js";
 
 const DonorDetails = ({ route, navigation }) => {
-  const { donor } = route.params;
+  const { donor } = route.params; 
 
   return (
     <ScrollView style={styles.container}>
