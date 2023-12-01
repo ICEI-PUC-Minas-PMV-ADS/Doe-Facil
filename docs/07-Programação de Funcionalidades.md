@@ -10,6 +10,7 @@ Essa funcionalidade permite que o usuário realize o cadastro e acesse o aplicat
 |--------|----|-------------------------|--------------
 | 3 | RF-001 | O aplicativo deve permitir que o usuário realize o cadastro | - |
 | 4 | RF-001 | O aplicativo deve permitir que o usuário realize o cadastro | - |
+| 5 | RF-001 | O aplicativo deve permitir que o usuário realize o cadastro | [NewAccount.js](../src/doeFacil/src/pages/NewAccount.js) |
 
 `Responsável`: Gabriel
 
@@ -19,7 +20,7 @@ __Instruções de Acesso__
 3. Forneça seus dados para o cadastro
 4. Clique em "Cadastrar"
 
-[Image]()
+<img src="./img/NewAccount.png" width="280" height="500" />
 
 ## Funcionalidade 02: Efetuar Login (RF-002)
 
@@ -29,6 +30,7 @@ Essa funcionalidade permite que o usuário já cadastrado acesse o aplicativo Do
 |-------|----|-----------------------|----------------|
 | 3 | RF-002 | O aplicativo deve permitir que os usuários efetuem o processo de login | [LoginPage.js](../src/doeFacil/src/pages/LoginPage.js) / [Input.js](../src/doeFacil/src/components/Input.js) |
 | 4 | RF-002 | O aplicativo deve permitir que os usuários efetuem o processo de login | [LoginPage.js](../src/doeFacil/src/pages/LoginPage.js) / [UserContext.js](../src/doeFacil/src/contexts/UserContext.js) / [Auth.js](../src/doeFacil/src/navigations/Auth.js) / [Route.js](../src/doeFacil/src/navigations/Route.js) |
+| 5 | RF-002 | O aplicativo deve permitir que os usuários efetuem o processo de login | [LoginPage.js](../src/doeFacil/src/pages/LoginPage.js) / [UserContext.js](../src/doeFacil/src/contexts/UserContext.js) / [Auth.js](../src/doeFacil/src/navigations/Auth.js) / [Route.js](../src/doeFacil/src/navigations/Route.js) |
 
 `Responsável`: Milleny
 
@@ -45,8 +47,9 @@ Essa funcionalidade permite que o usuário logado pesquise por pessoas que preci
 
 | Etapa | ID | Descrição do Requisito | Artefato(s) |
 |-------|----|------------------------|----------------|
-| 3 | RF-005 | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) / [DonorDetails.js](../src/doeFacil/src/pages/DonorDetails.js) / [LocalDonorsListPage.js](../src/doeFacil/src/pages/LocalDonorsListPage.js) |
-| 4 | RF-005 | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) / [DonorDetails.js](../src/doeFacil/src/pages/DonorDetails.js) / [LocalDonorsListPage.js](../src/doeFacil/src/pages/LocalDonorsListPage.js) |
+| 3 | RF-005 | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) / [DonorDetails.js](../src/doeFacil/src/pages/DonorDetails.js) / [LocalDonorsListPage.js](../src/doeFacil/src/pages/LocalDonorsListPage.js) / [DonationSearch.js](../src/doeFacil/src/components/DonationSearch.js) / [Title.js](../src/doeFacil/src/components/Title.js) / [Subtitle.js](../src/doeFacil/src/components/Subtitle.js) |
+| 4 | RF-005 | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) / [DonorDetails.js](../src/doeFacil/src/pages/DonorDetails.js) / [LocalDonorsListPage.js](../src/doeFacil/src/pages/LocalDonorsListPage.js) / [DonationSearch.js](../src/doeFacil/src/components/DonationSearch.js) / [Title.js](../src/doeFacil/src/components/Title.js) / [Subtitle.js](../src/doeFacil/src/components/Subtitle.js) |
+| 5 | RF-005 | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) / [DonorDetails.js](../src/doeFacil/src/pages/DonorDetails.js) / [LocalDonorsListPage.js](../src/doeFacil/src/pages/LocalDonorsListPage.js) / [DonationSearch.js](../src/doeFacil/src/components/DonationSearch.js) / [Title.js](../src/doeFacil/src/components/Title.js) / [Subtitle.js](../src/doeFacil/src/components/Subtitle.js) |
 
 
 `Responsável`: Joice
@@ -72,6 +75,7 @@ Essa funcionalidade permite que o usuário logado encontre informações sobre o
 |-------|------|---------------------|-------------|
 | 3 | RF-003 | O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação | [HomePage.js](../src/doeFacil/src/pages/HomePage.js) / [InfoBeneficio.js](../src/doeFacil/src/pages/InfoBeneficio.js) / [InfoComoDoar.js](../src/doeFacil/src/pages/InfoComoDoar.js) / [InfoOndeDoar.js](../src/doeFacil/src/pages/InfoOndeDoar.js) / [InfoPreparar.js](../src/doeFacil/src/pages/InfoPreparar.js) / [InfoRequisitos.js](../src/doeFacil/src/pages/InfoRequisitos.js) |
 | 4 | RF-003 | O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação | [HomePage.js](../src/doeFacil/src/pages/HomePage.js) / [InfoBeneficio.js](../src/doeFacil/src/pages/InfoBeneficio.js) / [InfoComoDoar.js](../src/doeFacil/src/pages/InfoComoDoar.js) / [InfoOndeDoar.js](../src/doeFacil/src/pages/InfoOndeDoar.js) / [InfoPreparar.js](../src/doeFacil/src/pages/InfoPreparar.js) / [InfoRequisitos.js](../src/doeFacil/src/pages/InfoRequisitos.js) |
+| 5 | RF-003 | O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação | [HomePage.js](../src/doeFacil/src/pages/HomePage.js) / [InfoBeneficio.js](../src/doeFacil/src/pages/InfoBeneficio.js) / [InfoComoDoar.js](../src/doeFacil/src/pages/InfoComoDoar.js) / [InfoOndeDoar.js](../src/doeFacil/src/pages/InfoOndeDoar.js) / [InfoPreparar.js](../src/doeFacil/src/pages/InfoPreparar.js) / [InfoRequisitos.js](../src/doeFacil/src/pages/InfoRequisitos.js) |
 
 `Responsável`: Iane
 
@@ -96,6 +100,7 @@ Essa funcionalidade permite que o usuário logado pesquise por locais de doaçã
 |-------|------|------------------------|----------------|
 | 3 | RF-003 | O aplicativo deve permitir a exibição de uma lista de locais de doação próximos ao usuário | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) |
 | 4 | RF-003 | O aplicativo deve permitir a exibição de uma lista de locais de doação próximos ao usuário | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) |
+| 5 | RF-003 | O aplicativo deve permitir a exibição de uma lista de locais de doação próximos ao usuário | [DonationPointsPage.js](../src/doeFacil/src/pages/DonationPointsPage.js) / [DonationPointsListPage.js](../src/doeFacil/src/pages/DonationPointsListPage.js) / [PointsDetails.js](../src/doeFacil/src/pages/PointsDetails.js) |
 
 `Responsável`: Joice e Milleny
 
@@ -108,4 +113,5 @@ __Instruções de Acesso__
 6. Selecione o Estado e a Cidade
 7. Clique em "Buscar"
 
-[Image]()
+| <img src="./img/DonationPointsPageLocal.png" width="280" height="500" /> | <img src="./img/DonationPointsListPage.png" width="280" height="500" /> | <img src="./img/PointsDetails.png" width="280" height="500" /> |
+|:---:|:---:|:---:|
