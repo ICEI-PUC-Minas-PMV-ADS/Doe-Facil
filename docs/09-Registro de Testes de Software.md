@@ -51,4 +51,4 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/82393577/4d34789d-952
 | Passos | - Acessar o navegador <br> - Informar ao navegador a URL <br> - Efetuar login <br> - Na página inicial, o usuário deve clicar no ícone file <br> |
 | Critérios de Êxito | O usuário consegue visualizar as informações. |
 
-![Teste 05](./video/teste05.mp4)
+[Teste 05](./video/teste05.mp4)
