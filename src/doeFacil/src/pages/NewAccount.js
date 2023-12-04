@@ -13,9 +13,9 @@ import { useNavigation } from '@react-navigation/native';
 const NewAccount = () => {
     const navigation = useNavigation();
 
-    const {setSigned} = useUser();
+    const {setSigned, setName} = useUser();
     
-    const [name, setName] = useState();
+    const [nome, setNome] = useState();
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
 
@@ -23,16 +23,17 @@ const NewAccount = () => {
 
     const handleRegister = () => {
         register({
-            name: name,
+            name: nome,
             email: email,
             password: password
         }).then( res => {
             console.log(res)
     
             if(res) {
+                setName(res.user.name)
                 Alert.alert("Bem vindo(a)!", "Seu cadastro foi realizado com sucesso!", [
                     { text: "OK", onPress: () => setSigned(true) }
-                ])
+                ]);
             } else {
                 Alert.alert("Atenção!", "Algo deu errado... Tente mais tarde!")
             }
@@ -46,8 +47,8 @@ const NewAccount = () => {
                 <Text style={styles.title}>Nova Conta</Text>
                 <Input 
                     label='Nome'
-                    value={name}
-                    onChangeText={(text) => setName(text)}
+                    value={nome}
+                    onChangeText={(text) => setNome(text)}
                 />
                 <Input 
                     label='E-mail'

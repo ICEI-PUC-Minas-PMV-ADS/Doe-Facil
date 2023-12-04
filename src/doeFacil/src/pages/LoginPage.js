@@ -24,8 +24,8 @@ const LoginPage = () => {
             console.log(res)
 
             if(res) {
-                setSigned(true);
                 setName(res.user.name)
+                setSigned(true);
             } else {
                 Alert.alert("Atenção!", "Algo deu errado... Usuário e/ou senha inválido(s)!")
             }

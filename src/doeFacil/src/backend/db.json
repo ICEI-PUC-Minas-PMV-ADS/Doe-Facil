@@ -50,6 +50,42 @@
       "password": "$2a$10$6ExQw28CZfe5TFJzttkmtOmYINUbra6uDHhbEJl5c0.a.YTTbZqmy",
       "name": "Mary",
       "id": 9
+    },
+    {
+      "email": "teste6@gmail.com",
+      "password": "$2a$10$r.ID35g1NlXbk7Y/ZkC8q.2Kk7.TUPUV6y.EvHzOJvleFY9.ETS2e",
+      "name": "Teste",
+      "id": 10
+    },
+    {
+      "email": "teste8@example.com",
+      "password": "$2a$10$dlv.glhoI4CyzaCYs0uiTOD1Q98cu5I1yPhVY3RUyBVoRe5gg.BtK",
+      "name": "Teste",
+      "id": 11
+    },
+    {
+      "email": "teste9@example.com",
+      "password": "$2a$10$z98O6tRm/LhRPmmrC0kkMuN8zIgpXXUh/qmpuBqQHv7wdfsClnMEu",
+      "name": "Teste",
+      "id": 12
+    },
+    {
+      "email": "teste10@example.com",
+      "password": "$2a$10$7.0YF.sNvFcfCXpQiKAKPuYuweUw2bh9MPNVJaWim9z6NccJz42B6",
+      "name": "Teste",
+      "id": 13
+    },
+    {
+      "email": "teste21@example.com",
+      "password": "$2a$10$I8zGJBRB.nBOBhDWJmByUeBLVt/EQwFQx6cn36BpsTqB5NzwUYNcC",
+      "name": "Teste",
+      "id": 14
+    },
+    {
+      "email": "teste1@example.com",
+      "password": "$2a$10$tT12HGE7rjJudUlvmrOQYe0re9u.1kUIjbRA/.6mKKHQVDnHEO7LW",
+      "name": "Teste",
+      "id": 15
     }
   ]
 }
