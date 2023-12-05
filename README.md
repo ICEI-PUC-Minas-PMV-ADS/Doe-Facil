@@ -25,7 +25,10 @@ Doe Fácil é um aplicativo móvel que busca atrair e fidelizar novos doadores d
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+- Baixe o repositório com `git clone https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil.git`
+- Abra o terminal e entre na pasta do projeto: `cd .\src\doeFacil\`
+- Digite o comando: `npx expo start`
+- Escaneie o QR code
 
 # Documentação
 
