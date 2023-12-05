@@ -36,7 +36,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/Doe-Facil/assets/82393577/a075fa5c-3f1
 
 | Caso de Teste | CT-04 - Cadastrar uma pessoa que precise de doação de sangue |
 |------------------|-----------------------------------------|
-| Requisitos Associado | RF-005 - O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações |
+| Requisitos Associado | RF-005 - O aplicativo deve permitir a exibição de uma lista de nomes das pessoas que necessitam de doações |
 | Objetivo do Teste | Verificar se o usuário consegue cadastrar o nome de uma pessoa que precisa de doação de sangue |
 | Passos | - Acessar o navegador <br> - Informar ao navegador a URL <br> - Efetuar login <br> - Na página inicial, o usuário deve clicar no ícone representando uma pessoa <br> - |
 | Critérios de Êxito | - |

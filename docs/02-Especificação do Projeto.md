@@ -82,7 +82,7 @@ O aplicativo de doação de sangue desempenha um papel crucial ao conectar doado
 | RF-002  | O aplicativo deve permitir que os usuários efetuem o processo de login | ALTA       |
 | RF-003  | O aplicativo deve permitir a exibição de uma lista de locais de doação próximos ao usuário | ALTA       |
 | RF-004  | O aplicativo deve permitir a atribuição de selos com base nas doações e nível de envolvimento dos doadores | MÉDIA      |
-| RF-005  | O aplicativo deve permitir que os usuários insiram os nomes das pessoas que necessitam de doações | MÉDIA      |
+| RF-005  | O aplicativo deve permitir a exibição de uma lista de nomes das pessoas que necessitam de doações | MÉDIA      |
 | RF-006  | O aplicativo deve permitir o acesso a informações detalhadas sobre o procedimento de doação | BAIXA      |
 | RF-007  | O aplicativo deve permitir a exibição de curiosidades e informações educativas relacionadas à doação | BAIXA      |
 
